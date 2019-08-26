@@ -1,0 +1,48 @@
+baseURL: "https://mjvo.github.io/web-multimedia"
+title: "AMI 325L/725L :: ISS 240L/740L :: VMS 288L/788L"
+
+defaultContentLanguage: en
+languages:
+  en:
+    lang: en
+    languageName: English
+    weight: 1
+
+MetaDataFormat: "yaml"
+
+theme: 
+  - "hugo-course"
+  - "reveal-hugo"
+
+FootnoteReturnLinkContents: "↩"
+
+outputFormats:
+  Reveal:
+    baseName: index
+    mediaType: text/html
+    isHTML: true
+  Remark:
+    baseName: index
+    mediaType: text/html
+    isHTML: true
+  
+params:
+  course:
+    name: "Fundamentals of Web-Based Multimedia Communications"
+    dept_url: "https://aahvs.duke.edu"
+    dept_logo: "/images/AAHVS_Barcode_Logo.png"
+    day_time: "Mondays, 3:05 - 4:20 PM (+ Lab Sections)"
+    location: "Physics 128"
+    hero_img: "/images/sai-kiran-anagani-5Ntkpxqt54Y-unsplash.jpg"
+    hero_img_credit: "Photo by <a href=\"https://unsplash.com/@_imkiran?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Sai Kiran Anagani</a> on <a href=\"https://unsplash.com/search/photos/web?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>"
+
+  reveal_hugo:
+    theme: white
+    
+    width: 960
+    height: 540
+    margin: 0.1
+    min_scale: .1
+    max_scale: 1
+
+    highlight_theme: "atom-one-dark"
