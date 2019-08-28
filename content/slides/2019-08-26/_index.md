@@ -76,13 +76,13 @@ class: compact
 * Learn _how_ to learn<br /><br />
 --
 
-* Leverage the browser as a _forensic tool_<br /><br />
+* Leverage the browser as a _forensic tool:_  [CNN Example](https://cnn.com)<br /><br />
 --
 
 * Develop skills in distributed collaborative code development<br /><br />
 --
 
-* Have fun _while_ crying in frustration<br />"These are tears of joy!"<br /><br />
+* Have fun _while_ crying in frustration over a missing semicolon<br />"These are tears of joy!"<br /><br />
 
 ---
 
@@ -100,7 +100,33 @@ class: compact
 
 >During practical experience lab sessions, students develop a **[personal course webpage](http://people.duke.edu/~nag26/)** to display a portfolio of work completed this semester. These websites are instrumental to our real goals: to uncover multimedia communications principles that scale, work across platforms, and adapt as features and functionality inevitably change in this quixotic and rapidly advancing technological space. 
     
->Throughout the semester, weekly lab exercises will build upon skills and capabilities as students progress toward completion of a final interactive multimedia website). Occasional quizzes will test your understanding of foundational concepts.  In addition, a final project proposal, storyboard, and postmortem report are required.
+>Throughout the semester, weekly lab exercises will build upon skills and capabilities as students progress toward completion of a final [interactive](http://people.duke.edu/~mcg52/final_project/index.html) [multimedia](http://people.duke.edu/~wjh18/final_project/finalproject.html) [website](http://people.duke.edu/~hew18/Final_Project/final.html). Occasional quizzes will test your understanding of foundational concepts.  In addition, a final project proposal, storyboard, and postmortem report are required.
+
+---
+
+# Grades will be based on:
+
+* Attendance, Labs, and Participation: 30%<br />Labs will be due during by the start of the first discussion section, the week _after_ they are assigned.
+--
+
+* Quizzes: 5%  
+--
+
+* Midterm Project: 25%<br />Due:  5:00 PM, Friday, October 11
+--
+
+* Final Project Proposal: 10%
+--
+
+* Final Project: 30%<br />Due: 12:00 PM, Wednesday, December 11
+--
+
+
+Labs will be graded on a | &Oslash; | &#10003; | &#10003;+ | basis.
+--
+
+
+A rubric will help guide the development of your midterm and final projects.  
 
 ---
 class: title
@@ -111,14 +137,53 @@ class: title
 
 # HTML
 
+* A "markup" language for the **"content"** of a website<br /><br />
+* Conveys semantic meaning (relative importance/unimportance, type of content)<br /><br />
+* Should NOT contain design elements (e.g. using tables for layout)
+
+
+Example:  http://people.duke.edu/~seminars/csszengarden/
 
 ---
 
 # CSS
 
+* A "stylesheet" language for the visual presentation of a website<br /><br />
+* aka _graphic design_ through code<br /><br />
+* Conveys meaning as well - visual signification
+
+Example:  http://www.csszengarden.com/
+
 ---
 
 # Javascript
+
+* A "scripting" language designed to dynamically modify the content and/or visual presentation of a website.<br /><br />
+* aka _interactivity_
+
+Note:  CSS3 now has some of this functionality
+
+Example: https://danielfvm.itch.io/bubbles 
+
+---
+
+# HTML5 "Boilerplate"
+
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title of the document</title>
+</head>
+
+<body>
+    Content of the document......
+</body>
+
+</html>
+```
 
 ---
 class: col-2 compact
@@ -148,4 +213,4 @@ class: col-2 compact
     * [Basic Web Pages](https://internetingishard.com/html-and-css/basic-web-pages/)
     * [Links &amp; Images](https://internetingishard.com/html-and-css/links-and-images/)
 
-* Sign up for the class Piazza forums:  
+* Sign up for the class Piazza forums:<br />http://bit.ly/fall2019-duke-web-piazza
