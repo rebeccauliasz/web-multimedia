@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS3</title>
+    
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="generator" content="Hugo 0.57.2" />
+    
+    
+					<link rel="stylesheet" type="text/css" href="https://mjvo.github.io/web-multimedia/remark/css/apron.css">
+					<link rel="stylesheet" type="text/css" href="https://mjvo.github.io/web-multimedia/remark/css/descartes.css">
+					<link rel="stylesheet" type="text/css" href="https://mjvo.github.io/web-multimedia/remark/css/adirondack.css">
+		<style type="text/css">
+		 
+		@page {
+				  size:  1216px 684px; 
+				  margin: 0;
+		}
+		</style>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/web-multimedia/remark/js/auto-render.min.js"></script> 
+    <script src="/web-multimedia/remark/js/story.js"></script>
+  </head>
+  <body class=" section-slides page-kind-section is-page-false ">
+    <main role="main">
+      
+    <textarea id="source">
+class: title, smokescreen, shelf, no-footer
+background-image: url(css3.jpg)
+
+# CSS3
+### Cascading Style Sheets&lt;br /&gt;September 9, 2019
+
+---
+background-image: url(css3.jpg)
+
+# Review
+
+--
+* ### Selectors
+
+---
+class: compact
+
+# Selectors
+
+* Are used to _select_ elements of the DOM for styling
+--
+
+* Simple selectors:
+    * **Universal** - selects all HTML elements&amp;colon; ` * `&lt;br&gt;&lt;br&gt;
+    * **Type** - selects all HTML elements of a specified type (e.g. `h1`)&lt;br&gt;&lt;br&gt;
+    * **Class** - selects all HTML elements with the same `class` attribute.  Can be prefixed to select only specific HTML elements with that class (e.g. `.leader` vs `p.leader`)&lt;br&gt;&lt;br&gt;
+    * **ID** - selects an element with a specific `id` attribute (e.g. `#special`)
+--
+
+* High degree of specificity [[CSS Selector Reference](https://www.w3schools.com/cssref/css_selectors.asp)]
+
+---
+class: col-2 compact
+
+# Selectors
+
+```html
+
+&lt;body&gt;
+    &lt;h1&gt;Title&lt;/h1&gt;
+    &lt;h2 class=&#34;red&#34;&gt;Subtitle&lt;/h2&gt;
+    &lt;p id=&#34;special&#34; class=&#34;red&#34;&gt;Paragraph 1&lt;p&gt;
+    &lt;p class=&#34;red&#34;&gt;Paragraph 2&lt;/p&gt;
+    &lt;h2&gt;Another Subtitle&lt;/h2&gt;
+    &lt;p&gt;Paragraph 3&lt;/p&gt;
+    &lt;p&gt;Paragraph 4&lt;/p&gt;
+&lt;/body&gt;
+```
+
+What selector do I use to target:
+
+* All of the elements with the &#34;red&#34; class?
+* The element with an ID of &#34;special&#34;?
+* The paragraphs with the &#34;red&#34; class?
+* The paragraphs that do NOT have a &#34;red&#34; class?
+* Paragraph 3?
+
+---
+background-image: url(css3.jpg)
+
+# Review
+
+* ### Selectors
+--
+
+* ### Cascade
+
+---
+class: compact 
+# Cascade
+
+The **cascade** is an algorithm that defines how to combine CSS property values originating from different sources, and, when they conflict, determines which has precedent.
+
+* Origin (1 takes highest precedence)
+    1. [User Style Sheet](https://davidwalsh.name/firefox-user-stylesheet) (customized by individual users)
+    2. Author Style Sheets (Web Designer)
+    3. User-Agent Style Sheets (Browser Default)
+
+--
+* Page Flow Hierarchy
+    * External CSS `&lt;link&gt;` is overridden by 
+    * Head CSS `&lt;style&gt;` is overridden by
+    * Inline CSS attributes `style=&#34;&#34;`
+
+---
+class: title
+
+# CSS Layout
+## https://learnlayout.com/</textarea>
+		<script type="text/javascript" src="https://mjvo.github.io/web-multimedia/remark/js/qrcode.js"></script>
+    <script src="https://mjvo.github.io/web-multimedia/remark/js/remark-latest.min.js"></script>
+    <script>
+      var slideshow = remark.create({
+          ratio: "16:9", 
+         
+         navigation: {
+            scroll: false
+         },
+         countIncrementalSlides: false,
+         slideNumberFormat: '%current%',
+		 highlightStyle: "atom-one-dark" 
+      });
+
+		
+		
+		$(".remark-slide-content.fit-h1 h1").each(function(i, e) {
+			var $e = $(e);
+			var $p = $e.closest('div.remark-slide-container');
+			var needsToggle = !$p.hasClass('remark-visible');
+			if ( needsToggle ) $p.toggleClass('remark-visible');
+			while (e.scrollHeight > e.clientHeight + 1 && $e.css('font-size') != '1px') {
+				$e.css('font-size', (parseInt($e.css('font-size')) - 1) + "px");
+				
+				
+			}
+			if ( needsToggle ) $p.toggleClass('remark-visible');
+		});
+		$( function() {
+			if ( $( "body.feature-qrcode:not(.feature-noqrcode)" ).length ) {
+				if ( $( ".qrcode" ).length ) {
+					new QRCode($(".qrcode")[0], {
+						"useSVG": true,
+						"text": window.location.href.replace(/#\d*$/, "")
+					});
+				}
+			}
+		});
+    </script>
+
+      </main>
+  </body>
+</html>

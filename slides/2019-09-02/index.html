@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML5</title>
+    
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="generator" content="Hugo 0.57.2" />
+    
+    
+					<link rel="stylesheet" type="text/css" href="https://mjvo.github.io/web-multimedia/remark/css/apron.css">
+					<link rel="stylesheet" type="text/css" href="https://mjvo.github.io/web-multimedia/remark/css/descartes.css">
+					<link rel="stylesheet" type="text/css" href="https://mjvo.github.io/web-multimedia/remark/css/adirondack.css">
+		<style type="text/css">
+		 
+		@page {
+				  size:  1216px 684px; 
+				  margin: 0;
+		}
+		</style>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/web-multimedia/remark/js/auto-render.min.js"></script> 
+    <script src="/web-multimedia/remark/js/story.js"></script>
+  </head>
+  <body class=" section-slides page-kind-section is-page-false ">
+    <main role="main">
+      
+    <textarea id="source">class: title, smokescreen, shelf, no-footer
+background-image: url(html5.jpg)
+
+# HTML5
+### &lt;br /&gt;September 2, 2019
+
+---
+
+# The Politics of Web Design
+
+## [#reactgate](https://www.businessinsider.com/reactgate-react-facebook-code-of-conduct-twitter-2019-8) :
+
+&gt; React, a popular open source project that started at Facebook, is adopting a new code of conduct after several people on Twitter called out racism in the community
+
+---
+class: col-2 compact
+
+# Review
+
+## HTML
+* A &#34;markup&#34; language for the **&#34;content&#34;** of a website&lt;br /&gt;&lt;br /&gt;
+* Conveys semantic meaning (relative importance/unimportance, type of content)&lt;br /&gt;&lt;br /&gt;
+* Should NOT contain design elements (e.g. using tables for layout)&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+## HTML5 Boilerplate
+```html
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&#34;UTF-8&#34;&gt;
+    &lt;title&gt;Title of the document&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    Content of the document......
+&lt;/body&gt;
+
+&lt;/html&gt;
+```
+
+---
+class: compact
+# Anatomy of an HTML Element
+
+### Element with Closing Tag
+
+```html
+&lt;tag attribute=&#34;some_attribute&#34;&gt;Content&lt;/tag&gt;
+
+&lt;!-- example --&gt;
+&lt;h1 class=&#34;huge&#34;&gt;Why I&#39;m Awesome&lt;/h1&gt;
+
+```
+
+### Self-Closing Element
+
+```html
+&lt;tag attribute=&#34;some_attribute&#34;&gt;
+&lt;!-- older versions of HTML used &lt;tag attribute=&#34;some_attribute&#34; /&gt; --&gt;
+
+&lt;!-- examples --&gt;
+&lt;img src=&#34;images/cricket.jpg&#34; alt=&#34;ekphratic description&#34;&gt;
+&lt;br&gt;
+
+```
+
+---
+# Comments as Citation
+
+![Credible Hulk](credible_hulk.jpg)
+
+---
+
+# A few good HTML5 Resources:
+
+* https://www.quackit.com/html/tags/
+* https://websitesetup.org/html5-cheat-sheet/
+
+---
+class: col-2
+
+# &lt;q&gt;Nested&lt;/q&gt; HTML
+
+## Properly Nested
+
+```html
+&lt;nav&gt;
+&lt;ul&gt;
+&lt;li&gt;Menu1&lt;/li&gt;
+&lt;li&gt;Menu2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+```
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+## Improperly Nested
+
+```html
+&lt;nav&gt;
+&lt;ul&gt;
+&lt;li&gt;Menu1
+&lt;li&gt;Menu2&lt;/li&gt;
+&lt;/li&gt;
+&lt;/nav&gt;    
+&lt;/ul&gt;
+```
+---
+# Best Practice:  Indentation
+[helps identify nesting issues; Brackets has a &lt;q&gt;Beautify&lt;q&gt; extension]
+
+```html
+&lt;nav&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Menu1&lt;/li&gt;
+        &lt;li&gt;Menu2&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;
+```
+
+---
+class: compact
+
+# Commonly Misunderstood HTML Elements
+
+* **`&lt;em&gt;&lt;/em&gt;` vs. `&lt;i&gt;&lt;/i&gt;`**&lt;br&gt;
+&lt;em&gt;&amp;lt;em&amp;gt;&lt;/em&gt; is &lt;em&gt;verbally emphatic&lt;/em&gt; whereas &lt;i&gt;&amp;lt;i&amp;gt;&lt;/i&gt; is used for visual attention and/or use cases like bibliographic citation&lt;br&gt;&lt;br&gt;
+Olson, M. (2019). Demystifying Commonly Misunderstood HTML Elements. &lt;i&gt;American Journal of Web Semantics, 27&lt;/i&gt;(2), 100-110.
+
+* **`&lt;strong&gt;&lt;/strong&gt;` vs. `&lt;b&gt;&lt;/b&gt;`**&lt;br&gt; 
+
+    * &lt;strong&gt;&amp;lt;strong&amp;gt;&lt;/strong&gt; is more strongly verbally emphatic than &lt;em&gt;&amp;lt;em&amp;gt;&lt;/em&gt;&lt;br&gt;&lt;br&gt;
+    * &lt;b&gt;&amp;lt;b&amp;gt;&lt;/b&gt; is used for visual attention, such as highlighting a keyword:&lt;br&gt;&lt;br&gt;
+    HTML5 is &lt;b&gt;semantic&lt;/b&gt;, that is, the elements you choose convey meaning.
+
+---
+class: col-2 compact
+# Content Models
+
+### Prior to HTML5:&lt;br&gt;&lt;br&gt;
+
+* Block&lt;br&gt;(e.g. `&lt;h1&gt;`, `&lt;p&gt;`, `&lt;ul&gt;`, `&lt;img&gt;`, `&lt;div&gt;`, etc.)&lt;br&gt;&lt;br&gt;
+* Inline&lt;br&gt;(e.g. `&lt;em&gt;`, `&lt;span&gt;`, `&lt;cite&gt;`, `&lt;b&gt;`, etc.)_&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+### HTML5:
+[![HTML5 Content Model Venn Diagram](content-venn.png)](https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html)
+---
+class: compact
+### HTML5 Content Model, cont&#39;d
+
+* **Metadata** - content in `&lt;head&gt;` for presentation of the document or its relation to other documents&lt;br&gt;&lt;br&gt;
+* **Flow** - most elements that are used in the `&lt;body&gt;` of the document&lt;br&gt;&lt;br&gt;
+* **Heading** - defines the header of a section (`&lt;h1&gt;...&lt;h6&gt;`, `&lt;hgroup&gt;`)&lt;br&gt;&lt;br&gt;
+* **Sectioning** - defines the scope of content blocks (`&lt;nav&gt;`, `&lt;section&gt;`, `&lt;article&gt;`, `&lt;aside&gt;`)&lt;br&gt;&lt;br&gt;
+* **Phrasing** - the text of the document &amp;amp; elements that mark up that text at the intra-block level. (many: `&lt;sub&gt;`, `&lt;cite&gt;`, `&lt;span&gt;`, etc.)&lt;br&gt;&lt;br&gt;
+* **Embedded** - imports another resource into the document (`&lt;audio&gt;`, `&lt;canvas&gt;` `&lt;embed&gt;`, `&lt;iframe&gt;`, `&lt;video&gt;`, etc.)&lt;br&gt;&lt;br&gt;
+* **Interactive** - content that is specifically intended for user interaction
+
+---
+class: img-left compact
+
+# File Paths
+
+![File Path Example](file_path.png)
+
+### Path: index.html &amp;rarr; darning.jpg
+
+* **Full:**&lt;br&gt;https://www.mysite.com/images/skills/darning.jpg
+
+* **Root Relative:**&lt;br&gt;/images/skills/darning.jpg
+
+* **File relative:**&lt;br&gt;images/skills/darning.jpg&lt;br&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-or-&lt;br&gt;./images/skills/darning.jpg
+
+---
+class: img-left compact
+
+# File Paths
+
+![File Path Example](file_path.png)
+
+### Path: /skills/index.html &amp;rarr; darning.jpg
+
+* **Full:**&lt;br&gt;https://www.mysite.com/images/skills/darning.jpg
+
+* **Root Relative:**&lt;br&gt;/images/skills/darning.jpg
+
+* **File relative:**&lt;br&gt;../images/skills/darning.jpg
+
+---
+class:
+## For Lab #1 this week:
+
+* Complete Lab Assignment #1: `about-me.html` (Don&#39;t forget to [validate your code](https://validator.w3.org/)!)&lt;br&gt;&lt;br&gt;
+* Read the following:
+    * **[W3schools.com &#34;CSS Tutorial&#34;](https://www.w3schools.com/css/css_intro.asp)** - from the **CSS Introduction** section _through and including_ the **CSS Fonts** section)
+    * Rachel Andrew’s [&#34;How to Learn CSS&#34;](https://www.smashingmagazine.com/2019/01/how-to-learn-css/)
+
+
+</textarea>
+		<script type="text/javascript" src="https://mjvo.github.io/web-multimedia/remark/js/qrcode.js"></script>
+    <script src="https://mjvo.github.io/web-multimedia/remark/js/remark-latest.min.js"></script>
+    <script>
+      var slideshow = remark.create({
+          ratio: "16:9", 
+         
+         navigation: {
+            scroll: false
+         },
+         countIncrementalSlides: false,
+         slideNumberFormat: '%current%',
+		 highlightStyle: "atom-one-dark" 
+      });
+
+		
+		
+		$(".remark-slide-content.fit-h1 h1").each(function(i, e) {
+			var $e = $(e);
+			var $p = $e.closest('div.remark-slide-container');
+			var needsToggle = !$p.hasClass('remark-visible');
+			if ( needsToggle ) $p.toggleClass('remark-visible');
+			while (e.scrollHeight > e.clientHeight + 1 && $e.css('font-size') != '1px') {
+				$e.css('font-size', (parseInt($e.css('font-size')) - 1) + "px");
+				
+				
+			}
+			if ( needsToggle ) $p.toggleClass('remark-visible');
+		});
+		$( function() {
+			if ( $( "body.feature-qrcode:not(.feature-noqrcode)" ).length ) {
+				if ( $( ".qrcode" ).length ) {
+					new QRCode($(".qrcode")[0], {
+						"useSVG": true,
+						"text": window.location.href.replace(/#\d*$/, "")
+					});
+				}
+			}
+		});
+    </script>
+
+      </main>
+  </body>
+</html>
