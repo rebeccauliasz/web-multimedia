@@ -29,7 +29,17 @@ background-image: url(seo-2078785_1920.png)
 
 ---
 
-Responsive Design
+# What is responsive design?
+
+* A web design strategy that strives to optimize the viewing experience across a range of devices, from desktop computers to tablets to mobile phones and smart watches.
+* What does "optimize" mean?  
+    * Reading (font sized properly for device; optimal line lengths)
+
+---
+
+# Responsive Design
+
+![Responsive Design Explained](Responsive_Web_Design_for_Desktop,_Notebook,_Tablet_and_Mobile_Phone.png)
 
 ---
 
@@ -43,11 +53,4 @@ _Responsive design can be applied in either strategy._
 
 ---
 
-What is responsive design?
-
-* A web design strategy that strives to optimize the viewing experience across a range of devices, from desktop computers to tablets to mobile phones and smart watches.
-* What does "optimize" mean?  
-    * Reading (font sized properly for device; optimal line lengths)
-
----
 Responsive vs Adaptive vs Fluid
