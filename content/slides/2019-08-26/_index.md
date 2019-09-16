@@ -1,5 +1,5 @@
 ---
-title: 'Introduction / Course Overview'
+title: 'Introduction'
 date: "2019-08-26"
 outputs: "Remark"
 

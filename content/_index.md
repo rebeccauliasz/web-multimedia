@@ -7,5 +7,9 @@ menu:
 
 ## Course Description
 
-Web-Based Multimedia Communications introduces basic web design in HTML and CSS, planning and designing web pages, and web standards and conventions. Students will also be introduced to advanced topics including responsive design, frameworks and grid-based layouts, CSS3 effects and animation, and JavaScript plugins. Students will build two fully-functional websites over the term. No previous coding or web development experience required.
+_Fundamentals of Web-Based Multimedia Communications_ introduces responsive web design using HTML, CSS, and Javascript, the web project planning process, as well as contemporary web standards, best practices, and conventions. 
+
+Students will also be introduced to advanced topics including CSS frameworks, CSS3 effects and animation, JavaScript plugins, and, if there is time and interest, Javascript frameworks and designing for extended reality (AV/VR). 
+
+Students will build two fully-functional websites over the term. No previous coding or web development experience required.
 
