@@ -148,7 +148,8 @@ Ayush Gupta's ["Beginner’s Guide To CSS Grid And Flexbox"](https://medium.com/
 
 **Homework Due:**
 
-* Lab #4:  Responsive Design with Flexbox
+* Watch: [Grid By Example Videos](https://gridbyexample.com/video)
+* Play [CSS Grid Garden](https://cssgridgarden.com/)
 
 ---
 
@@ -160,7 +161,11 @@ Ayush Gupta's ["Beginner’s Guide To CSS Grid And Flexbox"](https://medium.com/
 
 **Homework Due:**
 
-* Reading TBD
+* Read: 
+    * [Varun Vachhar's "Learning CSS Grid"](https://varun.ca/css-grid/)
+    * [CSS Tricks' "A Complete Guide to Grid"](https://css-tricks.com/snippets/css/complete-guide-grid/)
+    * [Quackit's CSS Grid Tutorial](https://www.quackit.com/css/grid/tutorial/)
+
 
 ---
 
@@ -168,7 +173,7 @@ Ayush Gupta's ["Beginner’s Guide To CSS Grid And Flexbox"](https://medium.com/
 
 **Homework Due:**
 
-* Lab #5:  CSS Grid
+* Lab #4:  CSS Grid and Flexbox
 
 ---
 
@@ -209,7 +214,7 @@ DUE&colon; <span class="tag is-info">Midterm Websites</span>
 
 **Homework Due:**
 
-* Lab #6:  CSS Animations
+* Lab #5:  CSS Animations
 
 ---
 
@@ -230,7 +235,7 @@ DUE&colon; <span class="tag is-info">Midterm Websites</span>
 
 **Homework Due:**
 
-* Lab #7:  Resume Layout with CSS Frameworks
+* Lab #6:  Resume Layout with CSS Frameworks
 
 ---
 
@@ -250,7 +255,7 @@ DUE&colon;  <span class="tag is-success">Semester Project Proposal</span>
 
 **Inclass Lab**
 
-* Lab 8: Web Accessibility Testing
+* Lab 7: Web Accessibility Testing
 
 ---
 

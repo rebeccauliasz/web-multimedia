@@ -42,15 +42,38 @@ background-image: url(seo-2078785_1920.png)
 ![Responsive Design Explained](Responsive_Web_Design_for_Desktop,_Notebook,_Tablet_and_Mobile_Phone.png)
 
 ---
+class: roomy
+# An Ecosystem of Design Strategies
 
-An Ecosystem of Design Strategies
+* Elegant Degradation (Desktop First)<br><br>
 
-* Elegant Degradation
-
-* Progressive Enhancement (Mobile First)
+* Progressive Enhancement (Mobile First)<br><br>
 
 _Responsive design can be applied in either strategy._
 
 ---
 
-Responsive vs Adaptive vs Fluid
+Setting the Viewport
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1">
+```
+
+
+---
+@media Queries
+
+
+---
+
+class: col-3
+
+# Responsive vs Adaptive vs Fluid
+
+* Responsive - uses @media queries<br><br><br><br>
+* Adaptive - uses a constrained set of @media queries to design for specific breakpoints
+* Fluid - uses percentage width and similar relative sizing
+
+---
+
+https://www.fastcompany.com/3038367/9-gifs-that-explain-responsive-design-brilliantly-2
