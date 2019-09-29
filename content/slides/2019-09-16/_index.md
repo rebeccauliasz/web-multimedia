@@ -28,12 +28,14 @@ class: title
 background-image: url(seo-2078785_1920.png)
 
 ---
-
+class: compact
 # What is responsive design?
 
-* A web design strategy that strives to optimize the viewing experience across a range of devices, from desktop computers to tablets to mobile phones and smart watches.
-* What does "optimize" mean?  
-    * Reading (font sized properly for device; optimal line lengths)
+* A web design strategy that strives to optimize the viewing experience across a range of devices, from desktop computers to tablets to mobile phones and smart watches.<br><br>
+* What does "optimize" mean?<br><br>
+    * For _reading_: font sized properly for device; optimal line length; minimal scrolling/panning/zooming
+    * For _mobile data_:  Images properly sized and scaled  (e.g. don't need a 20MP image for a mobile device screen); minimize bandwidth use
+    * For _interaction_: properly sized buttons and accessible form elements
 
 ---
 
@@ -52,8 +54,10 @@ class: roomy
 _Responsive design can be applied in either strategy._
 
 ---
+class: compact
+# Setting the Viewport
 
-Setting the Viewport
+As a foundation for responsive web design, always include the following HTML inside your `<head>` element:
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -61,7 +65,7 @@ Setting the Viewport
 
 
 ---
-@media Queries
+
 
 
 ---
@@ -75,5 +79,7 @@ class: col-3
 * Fluid - uses percentage width and similar relative sizing
 
 ---
+
+@media Queries
 
 https://www.fastcompany.com/3038367/9-gifs-that-explain-responsive-design-brilliantly-2

@@ -58,7 +58,7 @@ View the following Khan Academy videos on the fundamentals of the Internet and i
 
 **Homework Due:**
 
-* Lab 1: [My first Webpage](https://mjvo.github.io/tutorials/web-multimedia/week1/)<br>PRO TIP: [Validating your HTML code](https://validator.w3.org/) is a good way to catch mistakes and malformed markup.
+* Lab 1: [My first Webpage](https://mjvo.github.io/tutorials/web-multimedia/lab1/)<br>PRO TIP: [Validating your HTML code](https://validator.w3.org/) is a good way to catch mistakes and malformed markup.
 
 * Read the following: 
     
@@ -86,7 +86,7 @@ View the following Khan Academy videos on the fundamentals of the Internet and i
 **Homework Due:**
 
 * Read Chapters 10 - 13 and 16 - 17 from Duckett, J. (2011) _HTML & CSS: Design and Build Websites._ Indianapolis, IN: John Wiley & Sons.  
-* Lab 2: [Site Architecture - First Steps](https://mjvo.github.io/tutorials/web-multimedia/week2/)
+* Lab 2: [Site Architecture - First Steps](https://mjvo.github.io/tutorials/web-multimedia/lab2/)
 
 ---
 
@@ -111,7 +111,7 @@ View the following Khan Academy videos on the fundamentals of the Internet and i
     * ["Floats"](https://internetingishard.com/html-and-css/floats/) from _HTML &amp; CSS Is Hard_
     * ["Responsive Design"](https://internetingishard.com/html-and-css/responsive-design/) from _HTML &amp; CSS Is Hard_
     * ["Responsive Design with Viewport Control"](https://bitsofco.de/responsive-design-viewport/)
-* Lab 3: [Inline-Block Gallery](https://mjvo.github.io/tutorials/web-multimedia/week3/ )
+* Lab 3: [Inline-Block Gallery](https://mjvo.github.io/tutorials/web-multimedia/lab1/ )
 
 
 ---
@@ -173,7 +173,7 @@ Ayush Gupta's ["Beginner’s Guide To CSS Grid And Flexbox"](https://medium.com/
 
 **Homework Due:**
 
-* Lab #4:  CSS Grid and Flexbox
+* Lab #4:  [CSS Grid and Flexbox](https://mjvo.github.io/tutorials/web-multimedia/lab4/)
 
 ---
 
