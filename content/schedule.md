@@ -188,12 +188,7 @@ Ayush Gupta's ["Beginner’s Guide To CSS Grid And Flexbox"](https://medium.com/
 
 #### Labs! (October 9 - 11)
 
-**Workshop Midterm Websites (Due 5:00 PM, Friday, October 11)**
-
----
-## <span style="color:#209cee">Friday, October 11<br>5:00 PM</span>
-
-DUE&colon; <span class="tag is-info">Midterm Websites</span>
+**Workshop Midterm Websites**
 
 ---
 
@@ -215,6 +210,12 @@ DUE&colon; <span class="tag is-info">Midterm Websites</span>
 **Homework Due:**
 
 * Lab #5:  CSS Animations
+
+---
+
+## <span style="color:#209cee">Friday, October 18<br>5:00 PM</span>
+
+DUE&colon; <span class="tag is-info">Midterm Websites</span>
 
 ---
 

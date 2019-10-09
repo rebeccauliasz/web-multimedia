@@ -43,7 +43,7 @@ menu: main
 
     Success in this course hinges upon your consistent skill-building.  New material will be presented in lecture and in lab, and you will complete weekly lab assignments that will give you hands-on experience grappling with the concepts and grammar necessary to create modern web pages.  Your full participation is required, including attendance in all lectures and lab sessions, as well as participating in the peer support and troubleshooting community on Piazza.<br><br>
 
-* **Midterm Project:** 25%<br>Due: 5:00 PM, Friday, October 11
+* **Midterm Project:** 25%<br>Due: 5:00 PM, Friday, October 18
 
     The Midterm Project's overall site architecture will be designed in early lab assignments, and its design and layout refined over the first month and 1/2 of the course.  The outcome will be a multipage HTML5 website with CSS layout and design that introduces the student to the class and serves as an archive of lab assignments that will be completed throughout the semester.  The Midterm Project will, by the end of the term, also link to the student's final project proposal, final project itself, as well as accompanying documentation / post-project reflection.<br><br>
 
