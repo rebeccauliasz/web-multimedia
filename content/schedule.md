@@ -199,9 +199,7 @@ Ayush Gupta's ["Beginner’s Guide To CSS Grid And Flexbox"](https://medium.com/
 
 #### Lab #1
 
-**Homework Due:**
-
-* Reading TBD
+**Workshop Midterm Websites**
 
 ---
 
@@ -209,7 +207,9 @@ Ayush Gupta's ["Beginner’s Guide To CSS Grid And Flexbox"](https://medium.com/
 
 **Homework Due:**
 
-* Lab #5:  CSS Animations
+* "[CSS Transitions and Transforms for Beginners](https://thoughtbot.com/blog/transitions-and-transforms)"
+* "[Using CSS Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)"
+* "[Keyframe Animation Syntax](https://css-tricks.com/snippets/css/keyframe-animation-syntax/)"
 
 ---
 
@@ -220,7 +220,7 @@ DUE&colon; <span class="tag is-info">Midterm Websites</span>
 ---
 
 ## Week of Monday, October 21
-### Lecture:  CSS Frameworks
+### Lecture:  HTML5 Media 
 
 ---
 
@@ -228,15 +228,14 @@ DUE&colon; <span class="tag is-info">Midterm Websites</span>
 
 **Homework Due:**
 
-* Reading TBD
+* "[Video and Audio Content](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content)"
+* "[Adding Captions and Subtitles to HTML5 Video](https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video)"
 
 ---
 
 #### Lab #2
 
-**Homework Due:**
-
-* Lab #6:  Resume Layout with CSS Frameworks
+* Lab #5:  CSS Animations and HTML5 Media
 
 ---
 
@@ -252,11 +251,12 @@ DUE&colon;  <span class="tag is-success">Semester Project Proposal</span>
 
 **Homework Due:**
 
-* Reading TBD
+* Google's "[Fundamentals of Web Accessibility](https://developers.google.com/web/fundamentals/accessibility)"
+* A11y Project's "[Getting Started with ARIA](https://a11yproject.com/posts/getting-started-aria/)"
 
-**Inclass Lab**
+**In-class Lab**
 
-* Lab 7: Web Accessibility Testing
+* Lab 6: Web Accessibility Testing
 
 ---
 
@@ -264,7 +264,9 @@ DUE&colon;  <span class="tag is-success">Semester Project Proposal</span>
 
 **Homework Due:**
 
-* Understanding the DOM
+* Understanding the DOM:
+    * "[What Exactly Is the DOM?](https://bitsofco.de/what-exactly-is-the-dom/)"
+    * "[Understanding basics of DOM](https://medium.com/@thatisuday/understanding-basics-of-dom-265b73d958d1)"
 
 ---
 
