@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML5 Media</title>
+    
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="generator" content="Hugo 0.58.3" />
+    
+    
+					<link rel="stylesheet" type="text/css" href="https://mjvo.github.io/web-multimedia/remark/css/apron.css">
+					<link rel="stylesheet" type="text/css" href="https://mjvo.github.io/web-multimedia/remark/css/descartes.css">
+					<link rel="stylesheet" type="text/css" href="https://mjvo.github.io/web-multimedia/remark/css/adirondack.css">
+		<style type="text/css">
+		 
+		@page {
+				  size:  1216px 684px; 
+				  margin: 0;
+		}
+		</style>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/web-multimedia/remark/js/auto-render.min.js"></script> 
+    <script src="/web-multimedia/remark/js/story.js"></script>
+  </head>
+  <body class=" section-slides page-kind-section is-page-false ">
+    <main role="main">
+      
+    <textarea id="source">
+class: title, fogscreen, shelf, no-footer
+background-image: url(html5_media.jpg)
+
+# HTML5 Media (and a little Javascript)
+## October 21, 2019
+
+---
+class: title
+
+# Midterm Websites Postmortem
+
+---
+class: title
+# Page Load Times
+
+## Google&#39;s [Page Speed Insights](https://developers.google.com/speed/pagespeed/insights/)
+
+
+---
+class: roomy
+# Image Optimization
+
+* Suggested Reading:&lt;br&gt;&lt;q&gt;[Optimizing Images for the Web:  A Practical Guide](https://www.abetterlemonadestand.com/optimizing-images-for-web/)&lt;/q&gt;
+
+* Online tool:  [https://squoosh.app/](https://squoosh.app/)
+
+---
+class: compact
+# Review:  CSS Transitions
+
+```css
+.bar {
+    color: #000;
+    background-color: #fff;
+    width: 80px;
+    transition: background-color 500ms ease-out 1s, 
+        width 1.5s ease-in, transform 500ms ease-out 1s;
+}
+.bar:hover {
+    color: #fff;
+    background-color: #000;
+    width: 100px;
+    transform: rotate(15deg);
+}
+```
+[https://codepen.io/mjvo/pen/abbBMaB](https://codepen.io/mjvo/pen/abbBMaB)
+
+---
+class: compact
+# Review: CSS Animations
+```css
+.box {
+  width: 20px; height: 20px; background-color: blue;
+  animation-name: bowtie;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes bowtie {
+    0% { transform: translate(0px, 0px); }
+    25% { transform: translate(300px, 200px) }
+    50% { transform: translate(300px, 0px) }
+    75% { transform: translate(0px, 200px) }
+    100% { transform: translate(0px, 0px) }
+}
+```
+
+[https://codepen.io/mjvo/pen/vYYyPMj](https://codepen.io/mjvo/pen/vYYyPMj)
+
+---
+class: title center 
+# A little bit of JavaScript
+
+## [https://codepen.io/mjvo/pen/GRRrjxL](https://codepen.io/mjvo/pen/GRRrjxL)
+
+---
+class: title
+
+# HTML5 Media
+
+## Audio and Video for the Web
+
+---
+class: roomy col-2
+# HTML5 Audio
+
+#### Supported Media Types
+
+
+| File Format | Media Type |
+|-------------|------------|
+| MP3         | audio/mpeg |
+| OGG         | audio/ogg  |
+| WAV         | audio/wav  |
+
+---
+class: roomy col-2
+# HTML5 Audio
+## Browser Support
+
+| Browser | MP3 | WAV | OGG |
+|---------|-----|-----|-----|
+| Edge/IE | YES | NO  | NO  |
+| Chrome  | YES | YES | YES |
+| Firefox | YES | YES | YES |
+| Safari  | YES | YES | NO  |
+| Opera   | YES | YES | YES |
+
+---
+# HTML5 Audio
+
+## Syntax
+
+```html
+&lt;audio controls&gt;
+    &lt;source src=&#34;filename.ogg&#34; type=&#34;audio/ogg&#34;&gt;
+    &lt;source src=&#34;filename.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+Your browser does not support the audio element.
+&lt;/audio&gt; 
+```
+
+## [Example](https://www.w3schools.com/html/html5_audio.asp)
+&lt;audio controls&gt;
+  &lt;source src=&#34;https://www.w3schools.com/html/horse.ogg&#34; type=&#34;audio/ogg&#34;&gt;
+  &lt;source src=&#34;https://www.w3schools.com/html/horse.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+Your browser does not support the audio element.
+&lt;/audio&gt;
+
+---
+class: roomy col-2
+# HTML5 Video
+
+#### Supported Media Types
+
+| File Format | Media Type |
+|-------------|------------|
+| MP4         | video/mp4  |
+| WebM        | video/webm |
+| Ogg         | video/ogg  |
+
+---
+class: roomy col-2
+# HTML5 Video
+## Browser Support
+
+| Browser           | MP4                 | WebM | Ogg |
+|-------------------|---------------------|------|-----|
+| Internet Explorer | YES                 | NO   | NO  |
+| Chrome            | YES                 | YES  | YES |
+| Firefox           | YES                 | YES  | YES |
+| Safari            | YES                 | NO   | NO  |
+| Opera             | YES (from Opera 25) | YES  | YES |
+
+---
+class: compact
+ # HTML5 Video
+
+## Syntax
+
+```html
+&lt;video controls&gt;
+    &lt;source src=&#34;filename.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;source src=&#34;filename.webm&#34; type=&#34;video/webm&#34;&gt;
+Your browser does not support the video element.
+&lt;/video&gt; 
+```
+
+## [Example](https://www.w3schools.com/html/html5_video.asp)
+&lt;video controls width=&#34;200&#34;&gt;
+  &lt;source src=&#34;https://www.w3schools.com/html/movie.ogg&#34; type=&#34;video/ogg&#34;&gt;
+  &lt;source src=&#34;https://www.w3schools.com/html/movie.mp4&#34; type=&#34;video/mp4&#34;&gt;
+Your browser does not support the audio element.
+&lt;/video&gt;
+
+---
+
+# HTML5 Video
+
+## WebVTT Syntax
+
+```html
+  WEBVTT
+
+  00:00.000 --&gt; 00:02.000
+  First Subtitle
+
+  00:02.500 --&gt; 00:04.500
+  Second Subtitle
+
+  00:05.000 --&gt; 00:07.000
+  And so on . . . 
+```
+
+
+</textarea>
+		<script type="text/javascript" src="https://mjvo.github.io/web-multimedia/remark/js/qrcode.js"></script>
+    <script src="https://mjvo.github.io/web-multimedia/remark/js/remark-latest.min.js"></script>
+    <script>
+      var slideshow = remark.create({
+          ratio: "16:9", 
+         
+         navigation: {
+            scroll: false
+         },
+         countIncrementalSlides: false,
+         slideNumberFormat: '%current%',
+		 highlightStyle: "atom-one-dark" 
+      });
+
+		
+		
+		$(".remark-slide-content.fit-h1 h1").each(function(i, e) {
+			var $e = $(e);
+			var $p = $e.closest('div.remark-slide-container');
+			var needsToggle = !$p.hasClass('remark-visible');
+			if ( needsToggle ) $p.toggleClass('remark-visible');
+			while (e.scrollHeight > e.clientHeight + 1 && $e.css('font-size') != '1px') {
+				$e.css('font-size', (parseInt($e.css('font-size')) - 1) + "px");
+				
+				
+			}
+			if ( needsToggle ) $p.toggleClass('remark-visible');
+		});
+		$( function() {
+			if ( $( "body.feature-qrcode:not(.feature-noqrcode)" ).length ) {
+				if ( $( ".qrcode" ).length ) {
+					new QRCode($(".qrcode")[0], {
+						"useSVG": true,
+						"text": window.location.href.replace(/#\d*$/, "")
+					});
+				}
+			}
+		});
+    </script>
+
+      </main>
+  </body>
+</html>
