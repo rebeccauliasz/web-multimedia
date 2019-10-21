@@ -220,7 +220,7 @@ DUE&colon; <span class="tag is-info">Midterm Websites</span>
 ---
 
 ## Week of Monday, October 21
-### Lecture:  HTML5 Media 
+### Lecture:  HTML5 Media (and a little Javascript)
 
 ---
 
@@ -235,7 +235,9 @@ DUE&colon; <span class="tag is-info">Midterm Websites</span>
 
 #### Lab #2
 
-* Lab #5:  CSS Animations and HTML5 Media
+**Homework Due:**
+
+* Lab #5:  [CSS Animations and HTML5 Media](https://mjvo.github.io/tutorials/web-multimedia/lab5/)
 
 ---
 
