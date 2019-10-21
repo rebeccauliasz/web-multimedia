@@ -101,7 +101,7 @@ class: title
 class: roomy col-2
 # HTML5 Audio
 
-#### Supported Media Types
+#### Supported Media Types<br><br><br><br>
 
 
 | File Format | Media Type |
@@ -113,7 +113,7 @@ class: roomy col-2
 ---
 class: roomy col-2
 # HTML5 Audio
-## Browser Support
+## Browser Support<br><br><br><br><br>
 
 | Browser | MP3 | WAV | OGG |
 |---------|-----|-----|-----|
@@ -147,7 +147,7 @@ Your browser does not support the audio element.
 class: roomy col-2
 # HTML5 Video
 
-#### Supported Media Types
+#### Supported Media Types<br><br><br><br>
 
 | File Format | Media Type |
 |-------------|------------|
@@ -158,7 +158,7 @@ class: roomy col-2
 ---
 class: roomy col-2
 # HTML5 Video
-## Browser Support
+## Browser Support<br><br><br><br><br><br>
 
 | Browser           | MP4                 | WebM | Ogg |
 |-------------------|---------------------|------|-----|
@@ -169,7 +169,7 @@ class: roomy col-2
 | Opera             | YES (from Opera 25) | YES  | YES |
 
 ---
-class: compact
+class: compact col-2
  # HTML5 Video
 
 ## Syntax
@@ -183,7 +183,7 @@ Your browser does not support the video element.
 ```
 
 ## [Example](https://www.w3schools.com/html/html5_video.asp)
-<video controls width="200">
+<video controls width="300">
   <source src="https://www.w3schools.com/html/movie.ogg" type="video/ogg">
   <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
 Your browser does not support the audio element.
