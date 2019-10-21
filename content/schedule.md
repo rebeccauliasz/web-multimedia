@@ -79,6 +79,7 @@ View the following Khan Academy videos on the fundamentals of the Internet and i
 ### Lecture: CSS3
 
 [CSS3 slides](../slides/2019-09-09/)
+
 ---
 
 #### Lab #1
@@ -100,6 +101,8 @@ View the following Khan Academy videos on the fundamentals of the Internet and i
 
 ## Week of Monday, September 16
 ### Lecture: Responsive Design
+
+[Responsive Design slides](../slides/2019-09-16/)
 
 ---
 
@@ -133,6 +136,8 @@ Ayush Gupta's ["Beginner’s Guide To CSS Grid And Flexbox"](https://medium.com/
 
 ## Week of Monday, September 23
 ### Lecture: Flexbox
+
+[Flexbox slides](../slides/2019-09-23/)
 
 ---
 
@@ -195,6 +200,8 @@ Ayush Gupta's ["Beginner’s Guide To CSS Grid And Flexbox"](https://medium.com/
 ## Week of Monday, October 14
 ### Lecture:  Animations &ndash; From GIFs to CSS3
 
+[CSS3 Animations slides](../slides/2019-10-14/)
+
 ---
 
 #### Lab #1
@@ -221,6 +228,8 @@ DUE&colon; <span class="tag is-info">Midterm Websites</span>
 
 ## Week of Monday, October 21
 ### Lecture:  HTML5 Media (and a little Javascript)
+
+[HTML5 Media slides](../slides/2019-10-21/)
 
 ---
 
