@@ -253,7 +253,7 @@ DUE&colon; <span class="tag is-info">Midterm Websites</span>
 ## Week of Monday, October 28
 ### Lecture:  Web Accessiblity
 
-### <span style="color:#23d160;"><strike>Monday, October 28<br>3:05 PM</strike> Deadline Extended to Lab #2 next week</span>
+### <span style="color:#23d160;"><strike>Monday, October 28<br>3:05 PM</strike> Deadline Extended to Lab #2 this week</span>
 
 DUE&colon;  <span class="tag is-success">Semester Project Proposal</span>
 
