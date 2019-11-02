@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Web Accessibility</title>
+    
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="generator" content="Hugo 0.59.0" />
+    
+    
+					<link rel="stylesheet" type="text/css" href="https://mjvo.github.io/web-multimedia/remark/css/apron.css">
+					<link rel="stylesheet" type="text/css" href="https://mjvo.github.io/web-multimedia/remark/css/descartes.css">
+					<link rel="stylesheet" type="text/css" href="https://mjvo.github.io/web-multimedia/remark/css/adirondack.css">
+		<style type="text/css">
+		 
+		@page {
+				  size:  1216px 684px; 
+				  margin: 0;
+		}
+		</style>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/web-multimedia/remark/js/auto-render.min.js"></script> 
+    <script src="/web-multimedia/remark/js/story.js"></script>
+  </head>
+  <body class=" section-slides page-kind-section is-page-false ">
+    <main role="main">
+      
+    <textarea id="source">
+class: title, smokescreen, shelf, no-footer
+background-image: url(accessibility.png)
+
+# Web Accessibility
+## October 28, 2019
+
+---
+# Disability
+
+&lt;br&gt;&lt;br&gt;
+## Medical vs. Social Model
+
+---
+class: roomy
+&lt;br&gt;&lt;br&gt;
+# What is Web Accessibility?
+
+--
+A site is accessible when its content is available to, and its functionality can be operated by, literally _anyone_. 
+
+---
+
+# What are some problematic assumptions?
+
+* All users can see well (or at all)&lt;br&gt;&lt;br&gt;
+--
+
+* All users can see color&lt;br&gt;&lt;br&gt;
+--
+
+* All users can hear well (or at all)&lt;br&gt;&lt;br&gt;
+--
+
+* All users can operate a keyboard, mouse, and/or touchscreen&lt;br&gt;&lt;br&gt;
+--
+
+* All users are habituated to left-to-right content organization&lt;br&gt;&lt;br&gt;
+--
+
+* All users are neurotypical
+
+???
+Accessible sites make accommodations for blindness and low vision, deafness and hearing loss, limited movement, speech disabilities, photosensitivity, and combinations of these, as well as for learning disabilities and cognitive limitations.
+
+---
+
+# Web Content Accessibilty Guidelines (WCAG)
+
+* A W3C Recommendation 
+* Currently [version 2.1 (05 June 2018)]()
+
+---
+class: compact
+# POUR
+
+WCAG is organized around four principles often called by the acronym _POUR_:
+
+--
+* **Perceivable**: Can users perceive the content? This helps us keep in mind that just because something is perceivable with one sense, such as sight, that doesn&#39;t mean that all users can perceive it.
+
+--
+* **Operable**: Can users use UI components and navigate the content? For example, [something that requires a hover interaction](https://ianlunn.github.io/Hover/) cannot be operated by someone who can&#39;t use a mouse or touch screen.
+
+--
+* **Understandable**: Can users understand the content? Can users understand the interface and is it consistent enough to avoid confusion?
+
+--
+* **Robust**: Can the content be consumed by a wide variety of user agents (browsers)? Does it work with assistive technology?
+
+---
+
+# WebAIM&#39;s WCAG 2 Checklist 
+
+https://webaim.org/standards/wcag/checklist
+
+---
+
+# WAI-ARIA
+
+- Web Accessibility Initiative&#39;s Accessible Rich Internet Applications specification (WAI-ARIA, or just ARIA)&lt;br&gt;&lt;br&gt;
+- provides the ability for developers to specify roles for significant document areas.
+
+```html
+&lt;div id=&#34;percent-loaded&#34; role=&#34;progressbar&#34; aria-valuenow=&#34;75&#34; 
+     aria-valuemin=&#34;0&#34; aria-valuemax=&#34;100&#34; /&gt;
+
+```
+
+---
+
+# ARIA Landmark Roles
+
+* banner
+* navigation
+* main
+* search
+* article
+* complementary (equivalent to aside - supporting content for main content)
+* contentinfo (Informational child content, such as footnotes, copyrights, links to privacy statement, links to preferences, and so on.)
+
+---
+# Skip Navigation Links
+
+???
+Sighted people who use their mouse do not have any trouble with pages such as this. They can almost immediately scan over the page and identify where the main content is. In effect, sighted users have a built-in &#34;skip navigation&#34; mechanism: their eyes.
+
+The main content is not usually the first thing on a web page. Keyboard and screen reader users generally must navigate a long list of navigation links, sub-lists of links, corporate icons, site searches, and other elements before ever arriving at the main content. This is particularly difficult for users with some forms of motor disabilities.
+
+Without some sort of system for bypassing the long list of links, some users are at a huge disadvantage. Consider users with no arm movement, who use computers by tapping their heads on a switch or that use a stick in their mouth to press keyboard keys. Requiring users to perform any action perhaps 100s of times before reaching the main content is simply unacceptable.
+
+---
+
+# Content Linearization
+
+* Code flow
+* Use of semantic markup and hierarchical headings
+
+** CSS Grid can be used for good or evil here . . . **
+
+---
+
+# Screen Readers
+
+&lt;iframe width=&#34;90%&#34; height=&#34;90%&#34; src=&#34;https://www.youtube.com/embed/QW_dUs9D1oQ&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+---
+# Low Vision Simulation
+
+## [ChromeVox Lite](http://udacity.github.io/ud891/lesson3-semantics-built-in/02-chromevox-lite/)
+
+???
+The ticket parameters you should specify are:
+
+* one way
+* to Melbourne
+* leaving on 12 October 2017 (10/12/2017)
+* returning on 23 October 2017 (10/23/2017)
+* window seat
+* do not want to receive promotional offers
+
+---
+# Dyslexie Font
+
+# [https://www.dyslexiefont.com/](https://www.dyslexiefont.com/)
+
+---
+class: compact
+# Autism and Web Accessibility
+
+* Navigation and layout should be consistent across the entire site. Performing the same or similar actions on similar user interface elements should produce similar results.&lt;br&gt;&lt;br&gt;
+* The site should still be usable at larger text sizes and should still function with images and styles disabled. However, images, icons, and graphics that help with comprehension can be included.&lt;br&gt;&lt;br&gt;
+* Clutter and distractions should be minimized. Style and white space should separate content and direct the user’s attention as appropriate.&lt;br&gt;&lt;br&gt;
+* The text should be as simple as possible, while providing definitions for any non-standard terms, such as idioms, jargon, and abbreviations and acronyms. Correct grammar and spelling are important.&lt;br&gt;&lt;br&gt;
+* Users should have as much control as possible over the site’s behavior. Avoid time limits on content or automatic refreshes whenever possible. Provide clear instructions and error messages when filling out forms.
+
+
+---
+# Lab 06
+
+* https://achecker.ca/checker/index.php
+* https://wave.webaim.org
+* Use Voice-Over (Mac) on a lab machine in Chrome to experience how a low vision person might experience your site.
+
+Evaluate your site against web accessibility guidelines and respond with a few paragraphs about what you woud change in your midterm website to respond to the accessibility report.
+</textarea>
+		<script type="text/javascript" src="https://mjvo.github.io/web-multimedia/remark/js/qrcode.js"></script>
+    <script src="https://mjvo.github.io/web-multimedia/remark/js/remark-latest.min.js"></script>
+    <script>
+      var slideshow = remark.create({
+          ratio: "16:9", 
+         
+         navigation: {
+            scroll: false
+         },
+         countIncrementalSlides: false,
+         slideNumberFormat: '%current%',
+		 highlightStyle: "atom-one-dark" 
+      });
+
+		
+		
+		$(".remark-slide-content.fit-h1 h1").each(function(i, e) {
+			var $e = $(e);
+			var $p = $e.closest('div.remark-slide-container');
+			var needsToggle = !$p.hasClass('remark-visible');
+			if ( needsToggle ) $p.toggleClass('remark-visible');
+			while (e.scrollHeight > e.clientHeight + 1 && $e.css('font-size') != '1px') {
+				$e.css('font-size', (parseInt($e.css('font-size')) - 1) + "px");
+				
+				
+			}
+			if ( needsToggle ) $p.toggleClass('remark-visible');
+		});
+		$( function() {
+			if ( $( "body.feature-qrcode:not(.feature-noqrcode)" ).length ) {
+				if ( $( ".qrcode" ).length ) {
+					new QRCode($(".qrcode")[0], {
+						"useSVG": true,
+						"text": window.location.href.replace(/#\d*$/, "")
+					});
+				}
+			}
+		});
+    </script>
+
+      </main>
+  </body>
+</html>
