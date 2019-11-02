@@ -58,7 +58,7 @@ View the following Khan Academy videos on the fundamentals of the Internet and i
 
 **Homework Due:**
 
-* Lab 1: [My first Webpage](https://mjvo.github.io/tutorials/web-multimedia/lab1/)<br>PRO TIP: [Validating your HTML code](https://validator.w3.org/) is a good way to catch mistakes and malformed markup.
+* Lab Exercise 1: [My first Webpage](https://mjvo.github.io/tutorials/web-multimedia/lab1/)<br>PRO TIP: [Validating your HTML code](https://validator.w3.org/) is a good way to catch mistakes and malformed markup.
 
 * Read the following: 
     
@@ -87,7 +87,7 @@ View the following Khan Academy videos on the fundamentals of the Internet and i
 **Homework Due:**
 
 * Read Chapters 10 - 13 and 16 - 17 from Duckett, J. (2011) _HTML & CSS: Design and Build Websites._ Indianapolis, IN: John Wiley & Sons.  
-* Lab 2: [Site Architecture - First Steps](https://mjvo.github.io/tutorials/web-multimedia/lab2/)
+* Lab Exercise 2: [Site Architecture - First Steps](https://mjvo.github.io/tutorials/web-multimedia/lab2/)
 
 ---
 
@@ -114,7 +114,7 @@ View the following Khan Academy videos on the fundamentals of the Internet and i
     * ["Floats"](https://internetingishard.com/html-and-css/floats/) from _HTML &amp; CSS Is Hard_
     * ["Responsive Design"](https://internetingishard.com/html-and-css/responsive-design/) from _HTML &amp; CSS Is Hard_
     * ["Responsive Design with Viewport Control"](https://bitsofco.de/responsive-design-viewport/)
-* Lab 3: [Inline-Block Gallery](https://mjvo.github.io/tutorials/web-multimedia/lab1/ )
+* Lab Exercise 3: [Inline-Block Gallery](https://mjvo.github.io/tutorials/web-multimedia/lab1/ )
 
 
 ---
@@ -178,7 +178,7 @@ Ayush Gupta's ["Beginner’s Guide To CSS Grid And Flexbox"](https://medium.com/
 
 **Homework Due:**
 
-* Lab #4:  [CSS Grid and Flexbox](https://mjvo.github.io/tutorials/web-multimedia/lab4/)
+* Lab Exercise 4:  [CSS Grid and Flexbox](https://mjvo.github.io/tutorials/web-multimedia/lab4/)
 
 ---
 
@@ -246,7 +246,7 @@ DUE&colon; <span class="tag is-info">Midterm Websites</span>
 
 **Homework Due:**
 
-* Lab #5:  [CSS Animations and HTML5 Media](https://mjvo.github.io/tutorials/web-multimedia/lab5/)
+* Lab Exercise 5:  [CSS Animations and HTML5 Media](https://mjvo.github.io/tutorials/web-multimedia/lab5/)
 
 ---
 
@@ -267,7 +267,7 @@ DUE&colon; <span class="tag is-info">Midterm Websites</span>
 
 **In-class Lab**
 
-* Lab 6: Web Accessibility Testing
+* Lab Exercise 6: Web Accessibility Testing
 
 ---
 
@@ -324,9 +324,9 @@ Complete and _take notes on_:
 
 **Homework Due:**
 
-Complete and _take notes on_:
+* Lab Exercise 7 - MadLibs in Javascript
 
-* [freeCodeCamp's <q>Basic Javascript</q> Curriculum](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/) <br>&rarr; from <q>[Write Reusable Javascript with Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions)</q> up to and including <q>[Accessing Object Properties with Variables](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/accessing-object-properties-with-variables)</q>
+* Complete and _take notes on_: [freeCodeCamp's <q>Basic Javascript</q> Curriculum](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/) <br>&rarr; from <q>[Write Reusable Javascript with Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions)</q> up to and including <q>[Accessing Object Properties with Variables](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/accessing-object-properties-with-variables)</q>
 
 ---
 
@@ -345,8 +345,29 @@ Complete and _take notes on_:
 
 ---
 
+
+#### Lab #1
+
+**Homework Due:**
+
+* Lab Exercise 8 - Pokemon Battle Game
+
+* Research Javascript Plugins and Libraries
+
+
+---
+
+
+#### Lab #2
+
+* Lab Exercise 9 - Library Implementation
+
+---
+
 ## Week of Monday, November 25
 ### Lecture: Frameworks
+
+Due:  Lab Exercise 9 - Library Implementation
 
 ---
 
