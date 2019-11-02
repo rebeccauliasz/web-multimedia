@@ -287,9 +287,56 @@ DUE&colon;  <span class="tag is-success">Semester Project Proposal</span>
 ### Lecture: Javascript 101 
 
 ---
+#### Lab #1
+
+**Homework Due:**
+
+Watch and _take notes on_:
+
+* [Selecting & Changing Website Elements (DOM manipulation)](https://www.youtube.com/watch?v=eaLKqoB9Fu0&list=PLWKjhJtqVAbllLK6r2dnGjUVWB_cFNcuO) [05:39] - [CodePen Code](https://codepen.io/beaucarnes/pen/vmOzwW?editors=1010)
+
+* [CSS Styles in Javascript](https://www.youtube.com/watch?v=eaLKqoB9Fu0&list=PLWKjhJtqVAbllLK6r2dnGjUVWB_cFNcuO) [06:38] - [CodePen Code](https://codepen.io/beaucarnes/pen/EmVmbZ?editors=1010)
+
+* [DOM Events](https://www.youtube.com/watch?v=0fy9TCcX8Uc&list=PLWKjhJtqVAbllLK6r2dnGjUVWB_cFNcuO) [06:04] - [CodePen Code](https://codepen.io/beaucarnes/pen/eWJQMR)
+
+* [addEventListener() Event Handler](https://www.youtube.com/watch?v=F3odgpghXzY&list=PLWKjhJtqVAbllLK6r2dnGjUVWB_cFNcuO) [05:32] - [CodePen Code](https://codepen.io/beaucarnes/pen/JNRKXX?editors=1010)
+
+* [DOM Nodes](https://www.youtube.com/watch?v=BWVoPxob5DU&list=PLWKjhJtqVAbllLK6r2dnGjUVWB_cFNcuO) [05:05] - [CodePen Code](https://codepen.io/beaucarnes/pen/GmrQqa?editors=1010)
+
+
+---
+#### Lab #2
+
+**Homework Due:**
+
+Complete and _take notes on_:
+
+* [freeCodeCamp's <q>Basic Javascript</q> Curriculum](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/) <br>&rarr; from <q>[Introduction to Javascript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)</q> up to and including <q>[Shopping List](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/shopping-list)</q>
+
+---
 
 ## Week of Monday, November 11
 ### Lecture: Javascript 101, continued
+
+---
+
+#### Lab #1
+
+**Homework Due:**
+
+Complete and _take notes on_:
+
+* [freeCodeCamp's <q>Basic Javascript</q> Curriculum](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/) <br>&rarr; from <q>[Write Reusable Javascript with Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions)</q> up to and including <q>[Accessing Object Properties with Variables](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/accessing-object-properties-with-variables)</q>
+
+---
+
+#### Lab #2
+
+**Homework Due:**
+
+Complete and _take notes on_:
+
+* [freeCodeCamp's <q>Basic Javascript</q> Curriculum](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/) <br>&rarr; from <q>[Updating Object Properties](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/updating-object-properties)</q> up to and including <q>[Use Recursion to Create a Countdown](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-recursion-to-create-a-countdown)</q>
 
 ---
 
@@ -299,7 +346,7 @@ DUE&colon;  <span class="tag is-success">Semester Project Proposal</span>
 ---
 
 ## Week of Monday, November 25
-### Lecture: Javascript Frameworks
+### Lecture: Frameworks
 
 ---
 
@@ -310,7 +357,9 @@ DUE&colon;  <span class="tag is-success">Semester Project Proposal</span>
 ---
 
 ## **Week of Monday, December 2**
-### Lecture:  WebXR
+### Lecture:  The Future - WebAssembly, WebXR, Pyodide, etc
+
+
 
 ---
 
