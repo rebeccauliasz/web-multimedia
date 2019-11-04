@@ -73,6 +73,134 @@ The *Document Object Model* is a cross-platform and language-independent interfa
 With the Document Object Model, programmers can build documents, navigate their structure, and add, modify, or delete elements and content. Anything found in an HTML or XML document can be accessed, changed, deleted, or added using the Document Object Model
 
 ---
+class: compact
+# Javascript 101 - Data Types
+
+There are 7 &#34;primitive&#34; data types in Javascript:
+
+* **Number** - for numbers of any kind: integer (-1, 24, 0) or floating-point (2.343, 1.0, 3.14159265).&lt;br&gt;&lt;br&gt;
+--
+
+* **String** - for characters or strings of characters (&#34;m&#34; or &#34;water&#34; or &#34;My name is Sam.&#34;)&lt;br&gt;&lt;br&gt;
+--
+
+* **Boolean** - for `true` / `false`&lt;br&gt;&lt;br&gt;
+--
+
+* **Null** - a special value which represents “nothing”, “empty”&lt;br&gt;&lt;br&gt;
+--
+
+* **Undefined** -  for unassigned values (e.g. variables declared but not defined: `var x;`)&lt;br&gt;&lt;br&gt;
+--
+
+* **Object** - for more complex data structures (object-oriented programming)&lt;br&gt;&lt;br&gt;
+--
+
+* **Symbol** (new in ES6) - tokens that serve as unique IDs
+
+---
+# Javascript - Variables
+
+A variable is a “named storage” for data.  Contemporary Javascript programming uses the keyword `let` to declare a variable.
+
+
+```javascript
+    let x = 1;
+    let y = &#34;My first sentence.&#34;;
+    let is_it_on = false;
+```
+
+--
+Older versions of javascript used the keyword `var`.  
+
+```javascript
+    var k = 2.354;
+```
+_(Don&#39;t worry about the distinction for now.)_
+
+---
+# Javascript - Arrays
+
+An **array** is used to store multiple values in a single variable.
+
+```javascript
+
+    let fruits = [&#34;apple&#34;, &#34;pear&#34;, &#34;banana&#34;];
+    let ages = [21, 33, 87];
+```
+
+---
+# Javascript - Selecting DOM Elements
+
+* The `getElementByID()` method:  returns (or &#34;gets&#34;) the DOM element that has the ID attribute with the specified value.
+
+```javascript
+    let myDiv = document.getElementById(&#34;div1&#34;);
+```
+&lt;br&gt;
+--
+
+* The `getElementsByTagName` method:  returns (or &#34;gets&#34;) the DOM element of the specified element type.
+
+```javascript
+    let myDiv = document.getElementsByTagName(&#34;li&#34;);
+```
+
+---
+# Javascript - Selecting DOM Elements, continued
+
+* The `getElementsByClassName()` method: returns all DOM elements that share a specified class name
+
+```javascript
+    let allBirds = document.getElementsByClassName(&#34;bird&#34;);
+```
+&lt;br&gt;
+--
+
+* The `getQuerySelector()` method: returns the _first_ DOM element that shares the specified class name or element
+
+```javascript
+    let firstBird = document.querySelector(&#34;.bird&#34;);
+    let firstPara = document.querySelector(&#34;p&#34;);
+```
+
+---
+class: compact
+# Javascript - Creating and inserting DOM elements
+
+1. To create a new DOM element, use the `createElement` method:
+
+    ```javascript
+    let newElement = document.createElement(&#34;p&#34;);
+    ```
+
+--
+1. To add content to that new DOM element, set its `innerText` or `innerHTML` properties:
+
+    ```javascript
+    newElement.innerText = &#34;This paragraph created by JS!&#34;;
+    ```
+
+--
+1. Finally, insert the new DOM element into the DOM:
+
+    ```javascript
+    document.body.appendChild(newElement);
+    ```
+
+---
+# Two methods of insertion
+
+1. The **`appendChild()`** method: adds a node to the _end_ of the list of children of a specified parent node.&lt;br&gt;&lt;br&gt;syntax: `parentNode.appendChild(newNode);`
+
+--
+
+1.  The **`insertBefore(newNode, beforeNode)`** method: inserts a node before the reference node as a child of a specified parent node.&lt;br&gt;&lt;br&gt;syntax: `parentNode.insertBefore(newNode, referenceNode);
+
+---
+# Replace Child
+
+https://www.w3schools.com/jsref/met_node_removechild.asp
 </textarea>
 		<script type="text/javascript" src="https://mjvo.github.io/web-multimedia/remark/js/qrcode.js"></script>
     <script src="https://mjvo.github.io/web-multimedia/remark/js/remark-latest.min.js"></script>
