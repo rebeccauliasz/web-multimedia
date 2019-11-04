@@ -56,3 +56,131 @@ The *Document Object Model* is a cross-platform and language-independent interfa
 With the Document Object Model, programmers can build documents, navigate their structure, and add, modify, or delete elements and content. Anything found in an HTML or XML document can be accessed, changed, deleted, or added using the Document Object Model
 
 ---
+class: compact
+# Javascript 101 - Data Types
+
+There are 7 "primitive" data types in Javascript:
+
+* **Number** - for numbers of any kind: integer (-1, 24, 0) or floating-point (2.343, 1.0, 3.14159265).<br><br>
+--
+
+* **String** - for characters or strings of characters ("m" or "water" or "My name is Sam.")<br><br>
+--
+
+* **Boolean** - for `true` / `false`<br><br>
+--
+
+* **Null** - a special value which represents “nothing”, “empty”<br><br>
+--
+
+* **Undefined** -  for unassigned values (e.g. variables declared but not defined: `var x;`)<br><br>
+--
+
+* **Object** - for more complex data structures (object-oriented programming)<br><br>
+--
+
+* **Symbol** (new in ES6) - tokens that serve as unique IDs
+
+---
+# Javascript - Variables
+
+A variable is a “named storage” for data.  Contemporary Javascript programming uses the keyword `let` to declare a variable.
+
+
+```javascript
+    let x = 1;
+    let y = "My first sentence.";
+    let is_it_on = false;
+```
+
+--
+Older versions of javascript used the keyword `var`.  
+
+```javascript
+    var k = 2.354;
+```
+_(Don't worry about the distinction for now.)_
+
+---
+# Javascript - Arrays
+
+An **array** is used to store multiple values in a single variable.
+
+```javascript
+
+    let fruits = ["apple", "pear", "banana"];
+    let ages = [21, 33, 87];
+```
+
+---
+# Javascript - Selecting DOM Elements
+
+* The `getElementByID()` method:  returns (or "gets") the DOM element that has the ID attribute with the specified value.
+
+```javascript
+    let myDiv = document.getElementById("div1");
+```
+<br>
+--
+
+* The `getElementsByTagName` method:  returns (or "gets") the DOM element of the specified element type.
+
+```javascript
+    let myDiv = document.getElementsByTagName("li");
+```
+
+---
+# Javascript - Selecting DOM Elements, continued
+
+* The `getElementsByClassName()` method: returns all DOM elements that share a specified class name
+
+```javascript
+    let allBirds = document.getElementsByClassName("bird");
+```
+<br>
+--
+
+* The `getQuerySelector()` method: returns the _first_ DOM element that shares the specified class name or element
+
+```javascript
+    let firstBird = document.querySelector(".bird");
+    let firstPara = document.querySelector("p");
+```
+
+---
+class: compact
+# Javascript - Creating and inserting DOM elements
+
+1. To create a new DOM element, use the `createElement` method:
+
+    ```javascript
+    let newElement = document.createElement("p");
+    ```
+
+--
+1. To add content to that new DOM element, set its `innerText` or `innerHTML` properties:
+
+    ```javascript
+    newElement.innerText = "This paragraph created by JS!";
+    ```
+
+--
+1. Finally, insert the new DOM element into the DOM:
+
+    ```javascript
+    document.body.appendChild(newElement);
+    ```
+
+---
+# Two methods of insertion
+
+1. The **`appendChild()`** method: adds a node to the _end_ of the list of children of a specified parent node.<br><br>syntax: `parentNode.appendChild(newNode);`
+
+--
+
+1.  The **`insertBefore(newNode, beforeNode)`** method: inserts a node before the reference node as a child of a specified parent node.<br><br>syntax: `parentNode.insertBefore(newNode, referenceNode);
+
+---
+# Replace Child
+
+https://www.w3schools.com/jsref/met_node_removechild.asp
