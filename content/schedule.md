@@ -295,7 +295,7 @@ Watch and _take notes on_:
 
 * [Selecting & Changing Website Elements (DOM manipulation)](https://www.youtube.com/watch?v=eaLKqoB9Fu0&list=PLWKjhJtqVAbllLK6r2dnGjUVWB_cFNcuO) [05:39] - [CodePen Code](https://codepen.io/beaucarnes/pen/vmOzwW?editors=1010)
 
-* [CSS Styles in Javascript](https://www.youtube.com/watch?v=eaLKqoB9Fu0&list=PLWKjhJtqVAbllLK6r2dnGjUVWB_cFNcuO) [06:38] - [CodePen Code](https://codepen.io/beaucarnes/pen/EmVmbZ?editors=1010)
+* [CSS Styles in Javascript](https://www.youtube.com/watch?v=z_mSgK-6pOQ&list=PLWKjhJtqVAbllLK6r2dnGjUVWB_cFNcuO) [06:38] - [CodePen Code](https://codepen.io/beaucarnes/pen/EmVmbZ?editors=1010)
 
 * [DOM Events](https://www.youtube.com/watch?v=0fy9TCcX8Uc&list=PLWKjhJtqVAbllLK6r2dnGjUVWB_cFNcuO) [06:04] - [CodePen Code](https://codepen.io/beaucarnes/pen/eWJQMR)
 
