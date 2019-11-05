@@ -123,7 +123,7 @@ let disgusting = fruits[0]; // returns "apple"
 class: compact 
 # Javascript - Selecting DOM Elements
 
-* The `getElementByID()` method:  returns (or "gets") the DOM element that has the ID attribute with the specified value.
+* The `getElementById()` method:  returns (or "gets") the DOM element that has the ID attribute with the specified value.
 
     ```javascript
         let myDiv = document.getElementById("div1");
