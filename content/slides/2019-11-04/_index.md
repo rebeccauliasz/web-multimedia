@@ -60,6 +60,7 @@ class: compact
 # Javascript 101 - Data Types
 
 There are 7 "primitive" data types in Javascript:
+--
 
 * **Number** - for numbers of any kind: integer (-1, 24, 0) or floating-point (2.343, 1.0, 3.14159265).<br><br>
 --
@@ -67,10 +68,10 @@ There are 7 "primitive" data types in Javascript:
 * **String** - for characters or strings of characters ("m" or "water" or "My name is Sam.")<br><br>
 --
 
-* **Boolean** - for `true` / `false`<br><br>
+* **Boolean** - for `true` or `false`<br><br>
 --
 
-* **Null** - a special value which represents “nothing”, “empty”<br><br>
+* **Null** - a special value which represents “nothing”, “empty”:  `null`<br><br>
 --
 
 * **Undefined** -  for unassigned values (e.g. variables declared but not defined: `var x;`)<br><br>
@@ -88,16 +89,16 @@ A variable is a “named storage” for data.  Contemporary Javascript programmi
 
 
 ```javascript
-    let x = 1;
-    let y = "My first sentence.";
-    let is_it_on = false;
+let x = 1;
+let y = "My first sentence.";
+let is_it_on = false;
 ```
 
 --
 Older versions of javascript used the keyword `var`.  
 
 ```javascript
-    var k = 2.354;
+var k = 2.354;
 ```
 _(Don't worry about the distinction for now.)_
 
@@ -107,45 +108,58 @@ _(Don't worry about the distinction for now.)_
 An **array** is used to store multiple values in a single variable.
 
 ```javascript
+let fruits = ["apple", "pear", "banana"];
+let ages = [21, 33, 87];
+```
+--
+To access an element in an array, you use its "index."  In most programming paradigms, the first item in an array is index `0`, the second is `1`, the third is `2`, and so on.
 
-    let fruits = ["apple", "pear", "banana"];
-    let ages = [21, 33, 87];
+```javascript
+let favorite = fruits[1];  // returns "pear" from the array above
+let disgusting = fruits[0]; // returns "apple"
 ```
 
 ---
+class: compact 
 # Javascript - Selecting DOM Elements
 
 * The `getElementByID()` method:  returns (or "gets") the DOM element that has the ID attribute with the specified value.
 
-```javascript
-    let myDiv = document.getElementById("div1");
-```
-<br>
+    ```javascript
+        let myDiv = document.getElementById("div1");
+    ```
+    
+    [getElementById Example](https://jsbin.com/befucax/edit?html,js,output)
+
 --
+<hr>
 
-* The `getElementsByTagName` method:  returns (or "gets") the DOM element of the specified element type.
+* The `getElementsByTagName` method:  returns (or "gets") the DOM element of the specified element type.  In the code below, it will select all list items `<li>`
 
-```javascript
-    let myDiv = document.getElementsByTagName("li");
-```
+    ```javascript
+        let myDiv = document.getElementsByTagName("li");
+    ```
+    [getElementsByTagName Example](https://jsbin.com/vuvuyuy/edit?html,js,output)
 
 ---
-# Javascript - Selecting DOM Elements, continued
+class: compact
+# Javascript - Selecting DOM Elements, cont'd
 
-* The `getElementsByClassName()` method: returns all DOM elements that share a specified class name
+* The `getElementsByClassName()` method: returns all DOM elements that share a specified class name.
 
-```javascript
+    ```javascript
     let allBirds = document.getElementsByClassName("bird");
-```
-<br>
+    ```
+    [getElementsByClassName Example](https://jsbin.com/yasoxov/edit?html,js,output)
 --
+<hr>
+* The `querySelector()` method: returns the _**first**_ DOM element that shares the specified CSS selector.
 
-* The `getQuerySelector()` method: returns the _first_ DOM element that shares the specified class name or element
-
-```javascript
-    let firstBird = document.querySelector(".bird");
-    let firstPara = document.querySelector("p");
-```
+    ```javascript
+    let firstBird = document.querySelector(".bird"); // returns first element with .bird
+    let firstPara = document.querySelector("p"); // returns first <p> element
+    ```
+    [querySelector Example](https://jsbin.com/goyoxor/edit?html,js,output)
 
 ---
 class: compact
