@@ -162,6 +162,19 @@ class: compact
     [querySelector Example](https://jsbin.com/goyoxor/edit?html,js,output)
 
 ---
+
+# Javascript - Selecting DOM Elements, cont'd
+
+* The `querySelectorAll()` method: returns the _**all**_ of DOM element that match the specified CSS selector(s).
+
+    ```javascript
+    // returns all <a> elements with an href that points to www.duke.edu
+    let allDuke = document.querySelectorAll("a[href='https://www.duke.edu']"); 
+    ```
+    [querySelectorAll example](https://jsbin.com/gagaxag/edit?html,js,output)
+
+---
+
 class: compact
 # Javascript - Creating and inserting DOM elements
 
@@ -186,15 +199,16 @@ class: compact
     ```
 
 ---
+
 # Two methods of insertion
 
 1. The **`appendChild()`** method: adds a node to the _end_ of the list of children of a specified parent node.<br><br>syntax: `parentNode.appendChild(newNode);`
 
 --
 
-1.  The **`insertBefore(newNode, beforeNode)`** method: inserts a node before the reference node as a child of a specified parent node.<br><br>syntax: `parentNode.insertBefore(newNode, referenceNode);
+1.  The **`insertBefore(newNode, beforeNode)`** method: inserts a node before the reference node as a child of a specified parent node.<br><br>syntax: `parentNode.insertBefore(newNode, referenceNode);`
 
 ---
-# Replace Child
+# Remove Child
 
 https://www.w3schools.com/jsref/met_node_removechild.asp
