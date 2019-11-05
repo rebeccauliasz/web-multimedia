@@ -77,6 +77,7 @@ class: compact
 # Javascript 101 - Data Types
 
 There are 7 &#34;primitive&#34; data types in Javascript:
+--
 
 * **Number** - for numbers of any kind: integer (-1, 24, 0) or floating-point (2.343, 1.0, 3.14159265).&lt;br&gt;&lt;br&gt;
 --
@@ -84,10 +85,10 @@ There are 7 &#34;primitive&#34; data types in Javascript:
 * **String** - for characters or strings of characters (&#34;m&#34; or &#34;water&#34; or &#34;My name is Sam.&#34;)&lt;br&gt;&lt;br&gt;
 --
 
-* **Boolean** - for `true` / `false`&lt;br&gt;&lt;br&gt;
+* **Boolean** - for `true` or `false`&lt;br&gt;&lt;br&gt;
 --
 
-* **Null** - a special value which represents “nothing”, “empty”&lt;br&gt;&lt;br&gt;
+* **Null** - a special value which represents “nothing”, “empty”:  `null`&lt;br&gt;&lt;br&gt;
 --
 
 * **Undefined** -  for unassigned values (e.g. variables declared but not defined: `var x;`)&lt;br&gt;&lt;br&gt;
@@ -105,16 +106,16 @@ A variable is a “named storage” for data.  Contemporary Javascript programmi
 
 
 ```javascript
-    let x = 1;
-    let y = &#34;My first sentence.&#34;;
-    let is_it_on = false;
+let x = 1;
+let y = &#34;My first sentence.&#34;;
+let is_it_on = false;
 ```
 
 --
 Older versions of javascript used the keyword `var`.  
 
 ```javascript
-    var k = 2.354;
+var k = 2.354;
 ```
 _(Don&#39;t worry about the distinction for now.)_
 
@@ -124,45 +125,58 @@ _(Don&#39;t worry about the distinction for now.)_
 An **array** is used to store multiple values in a single variable.
 
 ```javascript
+let fruits = [&#34;apple&#34;, &#34;pear&#34;, &#34;banana&#34;];
+let ages = [21, 33, 87];
+```
+--
+To access an element in an array, you use its &#34;index.&#34;  In most programming paradigms, the first item in an array is index `0`, the second is `1`, the third is `2`, and so on.
 
-    let fruits = [&#34;apple&#34;, &#34;pear&#34;, &#34;banana&#34;];
-    let ages = [21, 33, 87];
+```javascript
+let favorite = fruits[1];  // returns &#34;pear&#34; from the array above
+let disgusting = fruits[0]; // returns &#34;apple&#34;
 ```
 
 ---
+class: compact 
 # Javascript - Selecting DOM Elements
 
 * The `getElementByID()` method:  returns (or &#34;gets&#34;) the DOM element that has the ID attribute with the specified value.
 
-```javascript
-    let myDiv = document.getElementById(&#34;div1&#34;);
-```
-&lt;br&gt;
+    ```javascript
+        let myDiv = document.getElementById(&#34;div1&#34;);
+    ```
+    
+    [getElementById Example](https://jsbin.com/befucax/edit?html,js,output)
+
 --
+&lt;hr&gt;
 
-* The `getElementsByTagName` method:  returns (or &#34;gets&#34;) the DOM element of the specified element type.
+* The `getElementsByTagName` method:  returns (or &#34;gets&#34;) the DOM element of the specified element type.  In the code below, it will select all list items `&lt;li&gt;`
 
-```javascript
-    let myDiv = document.getElementsByTagName(&#34;li&#34;);
-```
+    ```javascript
+        let myDiv = document.getElementsByTagName(&#34;li&#34;);
+    ```
+    [getElementsByTagName Example](https://jsbin.com/vuvuyuy/edit?html,js,output)
 
 ---
-# Javascript - Selecting DOM Elements, continued
+class: compact
+# Javascript - Selecting DOM Elements, cont&#39;d
 
-* The `getElementsByClassName()` method: returns all DOM elements that share a specified class name
+* The `getElementsByClassName()` method: returns all DOM elements that share a specified class name.
 
-```javascript
+    ```javascript
     let allBirds = document.getElementsByClassName(&#34;bird&#34;);
-```
-&lt;br&gt;
+    ```
+    [getElementsByClassName Example](https://jsbin.com/yasoxov/edit?html,js,output)
 --
+&lt;hr&gt;
+* The `querySelector()` method: returns the _**first**_ DOM element that shares the specified CSS selector.
 
-* The `getQuerySelector()` method: returns the _first_ DOM element that shares the specified class name or element
-
-```javascript
-    let firstBird = document.querySelector(&#34;.bird&#34;);
-    let firstPara = document.querySelector(&#34;p&#34;);
-```
+    ```javascript
+    let firstBird = document.querySelector(&#34;.bird&#34;); // returns first element with .bird
+    let firstPara = document.querySelector(&#34;p&#34;); // returns first &lt;p&gt; element
+    ```
+    [querySelector Example](https://jsbin.com/goyoxor/edit?html,js,output)
 
 ---
 class: compact
