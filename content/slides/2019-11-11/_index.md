@@ -1,0 +1,160 @@
+---
+title: 'Introduction to Javascript II'
+date: "2019-11-11"
+outputs: "Remark"
+
+cover_img: "javascript.jpg" # same dir as slideshow
+
+# remarkJS parameters
+ratio: "16:9" #"4:3"
+themes:
+- apron
+- descartes
+- adirondack
+
+highlight_style: "atom-one-dark"
+
+---
+
+class: title, smokescreen, shelf, no-footer
+background-image: url(javascript.jpg)
+
+# Introduction to Javascript II
+## November 11, 2019
+
+---
+# Javascript Math Operations
+
+* Addition: `+`:  `let x = y + 1;`
+* Subtraction: `-`: `let y = 5 - x;`
+* Multiplication: `*`: `let z = x * y;`
+* Division: `/`:  `let a = 1 / x;`
+
+---
+# Javascript Math Operations, cont'd
+
+* Increment: `++`
+* Decrement: `--`;
+
+```javascript
+let hitcount = 34;
+hitcount++; // 35
+hitcount++; // 36
+hitcount--; // 35
+```
+---
+# Javascript Assignment Operations, cont'd
+
+| **Operator** | **Example** | **Same As** |
+|----------|---------|-----------|
+| =        | x = 5;   | x = 5;     |
+| +=       | x += 5; | x = x + 5; |
+| -=       | x -= 5; | x = x - 5; |
+| *=       | x *= 5;  | x = x * 5; |
+| /=       | x /= 5;  | x = x / 5; |
+| %=       | x %= 5;  | x = x % 5; |
+
+
+---
+
+# Javascript Functions
+
+---
+
+
+--- 
+# Examples
+
+* [Counter](https://jsbin.com/sakimos/edit?html,js,output)
+
+
+
+---
+# Javascript Array Operations
+
+Get values from arrays using array indexes
+
+```javascript
+let a = ["milk", "eggs", "butter"];
+let firstItem = a[0]; // milk
+console.log(a[1]); // eggs
+```
+Remember, in most programming paradigms, index numbering begins with `0`
+
+---
+# Javascript Array Operations, cont'd
+
+Set values of arrays using array indexes
+
+Set/replace values from arrays using arry indexes
+
+push
+pop
+shift 
+unshift
+
+---
+
+# Logic
+
+if
+
+```javascript
+if (condition) {
+    // thing to do if true
+}
+```
+
+if else
+
+```javascript
+if (condition) {
+  //  thing to do if true
+} else {
+  //  thing to do if false
+}
+```
+---
+# Logic
+
+else if
+
+```javascript
+if (condition1) {
+  //  thing to do if condition1 is true
+} else if (condition2) {
+  //  thing to do if condition1 is false but condition2 is true
+} else {
+  // thing to do if both condition1 and condition2 are false
+}
+```
+
+---
+
+# Logic
+
+switch
+
+```javascript
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+} 
+```
+
+---
+# Iteration:  For Loops
+
+---
+# Iteration:  Array method
+
+array.ForEach() method
+
+---
+
