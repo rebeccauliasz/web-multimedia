@@ -324,7 +324,7 @@ Complete and _take notes on_:
 
 **Homework Due:**
 
-* Begin work on Lab Exercise 7 - MadLibs and Games in Javascript
+* Begin work on Lab Exercise 7 - MadLibs in Javascript
 
 * Complete and _take notes on_: [freeCodeCamp's <q>Basic Javascript</q> Curriculum](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/) <br>&rarr; from <q>[Write Reusable Javascript with Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions)</q> up to and including <q>[Accessing Object Properties with Variables](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/accessing-object-properties-with-variables)</q>
 
@@ -341,7 +341,7 @@ Complete and _take notes on_:
 ---
 
 ## Week of Monday, November 18
-### Lecture: Javascript Plugins and Libraries
+### Lecture: Javascript 101 / Plugins and Libraries
 
 ---
 
@@ -350,7 +350,7 @@ Complete and _take notes on_:
 
 **Homework Due:**
 
-* Due:  Lab Exercise 7 - MadLibs and Games in Javascript
+* Due:  Lab Exercise 7 - MadLibs in Javascript
 
 * Research Javascript Plugins and Libraries
 
@@ -365,7 +365,7 @@ Complete and _take notes on_:
 ---
 
 ## Week of Monday, November 25
-### Lecture: Frameworks
+### Lecture: Web APIs with Javascript
 
 Due:  Lab Exercise 8 - Library Implementation
 
