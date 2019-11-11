@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Introduction to Javascript II</title>
+    
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="generator" content="Hugo 0.59.1" />
+    
+    
+					<link rel="stylesheet" type="text/css" href="https://mjvo.github.io/web-multimedia/remark/css/apron.css">
+					<link rel="stylesheet" type="text/css" href="https://mjvo.github.io/web-multimedia/remark/css/descartes.css">
+					<link rel="stylesheet" type="text/css" href="https://mjvo.github.io/web-multimedia/remark/css/adirondack.css">
+		<style type="text/css">
+		 
+		@page {
+				  size:  1216px 684px; 
+				  margin: 0;
+		}
+		</style>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/web-multimedia/remark/js/auto-render.min.js"></script> 
+    <script src="/web-multimedia/remark/js/story.js"></script>
+  </head>
+  <body class=" section-slides page-kind-section is-page-false ">
+    <main role="main">
+      
+    <textarea id="source">
+class: title, smokescreen, shelf, no-footer
+background-image: url(javascript.jpg)
+
+# Introduction to Javascript II
+## November 11, 2019
+
+---
+# Javascript Math Operations
+
+* Addition: `&#43;`:  `let x = y &#43; 1;`
+* Subtraction: `-`: `let y = 5 - x;`
+* Multiplication: `*`: `let z = x * y;`
+* Division: `/`:  `let a = 1 / x;`
+
+---
+# Javascript Math Operations, cont&#39;d
+
+* Increment: `&#43;&#43;`
+* Decrement: `--`;
+
+```javascript
+let hitcount = 34;
+hitcount&#43;&#43;; // 35
+hitcount&#43;&#43;; // 36
+hitcount--; // 35
+```
+---
+# Javascript Assignment Operations, cont&#39;d
+
+| **Operator** | **Example** | **Same As** |
+|----------|---------|-----------|
+| =        | x = 5;   | x = 5;     |
+| &#43;=       | x &#43;= 5; | x = x &#43; 5; |
+| -=       | x -= 5; | x = x - 5; |
+| *=       | x *= 5;  | x = x * 5; |
+| /=       | x /= 5;  | x = x / 5; |
+| %=       | x %= 5;  | x = x % 5; |
+
+
+---
+
+# Javascript Functions
+
+---
+
+
+--- 
+# Examples
+
+* [Counter](https://jsbin.com/sakimos/edit?html,js,output)
+
+
+
+---
+# Javascript Array Operations
+
+Get values from arrays using array indexes
+
+```javascript
+let a = [&#34;milk&#34;, &#34;eggs&#34;, &#34;butter&#34;];
+let firstItem = a[0]; // milk
+console.log(a[1]); // eggs
+```
+Remember, in most programming paradigms, index numbering begins with `0`
+
+---
+# Javascript Array Operations, cont&#39;d
+
+Set values of arrays using array indexes
+
+Set/replace values from arrays using arry indexes
+
+push
+pop
+shift 
+unshift
+
+---
+
+# Logic
+
+if
+
+```javascript
+if (condition) {
+    // thing to do if true
+}
+```
+
+if else
+
+```javascript
+if (condition) {
+  //  thing to do if true
+} else {
+  //  thing to do if false
+}
+```
+---
+# Logic
+
+else if
+
+```javascript
+if (condition1) {
+  //  thing to do if condition1 is true
+} else if (condition2) {
+  //  thing to do if condition1 is false but condition2 is true
+} else {
+  // thing to do if both condition1 and condition2 are false
+}
+```
+
+---
+
+# Logic
+
+switch
+
+```javascript
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+} 
+```
+
+---
+# Iteration:  For Loops
+
+---
+# Iteration:  Array method
+
+array.ForEach() method
+
+---
+
+</textarea>
+		<script type="text/javascript" src="https://mjvo.github.io/web-multimedia/remark/js/qrcode.js"></script>
+    <script src="https://mjvo.github.io/web-multimedia/remark/js/remark-latest.min.js"></script>
+    <script>
+      var slideshow = remark.create({
+          ratio: "16:9", 
+         
+         navigation: {
+            scroll: false
+         },
+         countIncrementalSlides: false,
+         slideNumberFormat: '%current%',
+		 highlightStyle: "atom-one-dark" 
+      });
+
+		
+		
+		$(".remark-slide-content.fit-h1 h1").each(function(i, e) {
+			var $e = $(e);
+			var $p = $e.closest('div.remark-slide-container');
+			var needsToggle = !$p.hasClass('remark-visible');
+			if ( needsToggle ) $p.toggleClass('remark-visible');
+			while (e.scrollHeight > e.clientHeight + 1 && $e.css('font-size') != '1px') {
+				$e.css('font-size', (parseInt($e.css('font-size')) - 1) + "px");
+				
+				
+			}
+			if ( needsToggle ) $p.toggleClass('remark-visible');
+		});
+		$( function() {
+			if ( $( "body.feature-qrcode:not(.feature-noqrcode)" ).length ) {
+				if ( $( ".qrcode" ).length ) {
+					new QRCode($(".qrcode")[0], {
+						"useSVG": true,
+						"text": window.location.href.replace(/#\d*$/, "")
+					});
+				}
+			}
+		});
+    </script>
+
+      </main>
+  </body>
+</html>
