@@ -34,25 +34,28 @@
       
     <textarea id="source">
 class: title, smokescreen, shelf, no-footer
-background-image: url(javascript.jpg)
+background-image: url(../2019-11-04/javascript.jpg)
 
 # Introduction to Javascript II
 ## November 11, 2019
 
 ---
+class: roomy
 # Javascript Math Operations
 
-* Addition: `&#43;`:  `let x = y &#43; 1;`
-* Subtraction: `-`: `let y = 5 - x;`
-* Multiplication: `*`: `let z = x * y;`
+* Addition: `&#43;`:  `let x = y &#43; 1;`&lt;br&gt;&lt;br&gt;
+* Subtraction: `-`: `let y = 5 - x;`&lt;br&gt;&lt;br&gt;
+* Multiplication: `*`: `let z = x * y;`&lt;br&gt;&lt;br&gt;
 * Division: `/`:  `let a = 1 / x;`
 
 ---
+class: col-2
 # Javascript Math Operations, cont&#39;d
-
+&lt;br&gt;&lt;br&gt;
 * Increment: `&#43;&#43;`
 * Decrement: `--`;
 
+&lt;br&gt;&lt;br&gt;
 ```javascript
 let hitcount = 34;
 hitcount&#43;&#43;; // 35
@@ -78,12 +81,9 @@ hitcount--; // 35
 
 ---
 
-
---- 
 # Examples
 
 * [Counter](https://jsbin.com/sakimos/edit?html,js,output)
-
 
 
 ---
@@ -102,16 +102,34 @@ Remember, in most programming paradigms, index numbering begins with `0`
 # Javascript Array Operations, cont&#39;d
 
 Set values of arrays using array indexes
-
-Set/replace values from arrays using arry indexes
-
-push
-pop
-shift 
-unshift
+```javascript
+let a = [&#34;eggs&#34;,&#34;oil&#34;,&#34;sugar&#34;]
+a[3] = &#34;butter&#34;; 
+console.log(a); // [&#34;eggs&#34;,&#34;oil&#34;,&#34;sugar&#34;, &#34;butter&#34;]
+```
 
 ---
 
+# Javascript Array Operations, cont&#39;d
+
+Replace values from arrays using array indexes
+```javascript
+let a = [&#34;eggs&#34;,&#34;oil&#34;,&#34;sugar&#34;]
+a[1] = &#34;butter&#34;; 
+console.log(a); // [&#34;eggs&#34;,&#34;butter&#34;,&#34;sugar&#34;]
+```
+
+---
+# Array methods
+
+* sort()
+* push()
+* pop()
+* shift()
+* unshift()
+
+---
+class: compact
 # Logic
 
 if
@@ -132,6 +150,7 @@ if (condition) {
 }
 ```
 ---
+class: compact
 # Logic
 
 else if
@@ -147,7 +166,7 @@ if (condition1) {
 ```
 
 ---
-
+class: compact
 # Logic
 
 switch
@@ -166,16 +185,9 @@ switch(expression) {
 ```
 
 ---
-# Iteration:  For Loops
 
-The `for` loop has the following syntax:
-
-```javascript
-for (var i = 0; i &lt; 5; i&#43;&#43;) {
-  // code block to be executed
-  alert(&#34;All work and no play makes Jack a dull boy.&#34;);
-}
-```
+Putting it all together example:&lt;br&gt;
+[https://jsbin.com/buwixeq/edit?html,js,output](https://jsbin.com/buwixeq/edit?html,js,output)
 
 ---
 
@@ -188,19 +200,27 @@ for (statement 1; statement 2; statement 3) {
   // code block to be executed
 }
 ```
+
 Statement 1 is executed (one time) before the execution of the code block.
 
 Statement 2 defines the condition for executing the code block.
 
 Statement 3 is executed (every time) after the code block has been executed.
----
-# Iteration:  Array method
-
-array.ForEach() method
 
 ---
 
-</textarea>
+# Iteration:  For Loops
+
+The `for` loop has the following syntax:
+
+```javascript
+for (var i = 0; i &lt; 5; i&#43;&#43;) {
+  // code block to be executed
+  alert(&#34;All work and no play makes Jack a dull boy.&#34;);
+}
+```
+
+---</textarea>
 		<script type="text/javascript" src="https://mjvo.github.io/web-multimedia/remark/js/qrcode.js"></script>
     <script src="https://mjvo.github.io/web-multimedia/remark/js/remark-latest.min.js"></script>
     <script>
