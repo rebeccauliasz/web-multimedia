@@ -3,7 +3,7 @@ title: 'Introduction to Javascript II'
 date: "2019-11-11"
 outputs: "Remark"
 
-cover_img: "javascript.jpg" # same dir as slideshow
+cover_img: "../2019-11-04/javascript.jpg" # same dir as slideshow
 
 # remarkJS parameters
 ratio: "16:9" #"4:3"
@@ -17,25 +17,28 @@ highlight_style: "atom-one-dark"
 ---
 
 class: title, smokescreen, shelf, no-footer
-background-image: url(javascript.jpg)
+background-image: url(../2019-11-04/javascript.jpg)
 
 # Introduction to Javascript II
 ## November 11, 2019
 
 ---
+class: roomy
 # Javascript Math Operations
 
-* Addition: `+`:  `let x = y + 1;`
-* Subtraction: `-`: `let y = 5 - x;`
-* Multiplication: `*`: `let z = x * y;`
+* Addition: `+`:  `let x = y + 1;`<br><br>
+* Subtraction: `-`: `let y = 5 - x;`<br><br>
+* Multiplication: `*`: `let z = x * y;`<br><br>
 * Division: `/`:  `let a = 1 / x;`
 
 ---
+class: col-2
 # Javascript Math Operations, cont'd
-
+<br><br>
 * Increment: `++`
 * Decrement: `--`;
 
+<br><br>
 ```javascript
 let hitcount = 34;
 hitcount++; // 35
@@ -61,12 +64,9 @@ hitcount--; // 35
 
 ---
 
-
---- 
 # Examples
 
 * [Counter](https://jsbin.com/sakimos/edit?html,js,output)
-
 
 
 ---
@@ -85,16 +85,34 @@ Remember, in most programming paradigms, index numbering begins with `0`
 # Javascript Array Operations, cont'd
 
 Set values of arrays using array indexes
-
-Set/replace values from arrays using arry indexes
-
-push
-pop
-shift 
-unshift
+```javascript
+let a = ["eggs","oil","sugar"]
+a[3] = "butter"; 
+console.log(a); // ["eggs","oil","sugar", "butter"]
+```
 
 ---
 
+# Javascript Array Operations, cont'd
+
+Replace values from arrays using array indexes
+```javascript
+let a = ["eggs","oil","sugar"]
+a[1] = "butter"; 
+console.log(a); // ["eggs","butter","sugar"]
+```
+
+---
+# Array methods
+
+* sort()
+* push()
+* pop()
+* shift()
+* unshift()
+
+---
+class: compact
 # Logic
 
 if
@@ -115,6 +133,7 @@ if (condition) {
 }
 ```
 ---
+class: compact
 # Logic
 
 else if
@@ -130,7 +149,7 @@ if (condition1) {
 ```
 
 ---
-
+class: compact
 # Logic
 
 switch
@@ -149,16 +168,9 @@ switch(expression) {
 ```
 
 ---
-# Iteration:  For Loops
 
-The `for` loop has the following syntax:
-
-```javascript
-for (var i = 0; i < 5; i++) {
-  // code block to be executed
-  alert("All work and no play makes Jack a dull boy.");
-}
-```
+Putting it all together example:<br>
+[https://jsbin.com/buwixeq/edit?html,js,output](https://jsbin.com/buwixeq/edit?html,js,output)
 
 ---
 
@@ -171,15 +183,24 @@ for (statement 1; statement 2; statement 3) {
   // code block to be executed
 }
 ```
+
 Statement 1 is executed (one time) before the execution of the code block.
 
 Statement 2 defines the condition for executing the code block.
 
 Statement 3 is executed (every time) after the code block has been executed.
----
-# Iteration:  Array method
-
-array.ForEach() method
 
 ---
 
+# Iteration:  For Loops
+
+The `for` loop has the following syntax:
+
+```javascript
+for (var i = 0; i < 5; i++) {
+  // code block to be executed
+  alert("All work and no play makes Jack a dull boy.");
+}
+```
+
+---

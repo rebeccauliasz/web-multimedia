@@ -324,7 +324,7 @@ Complete and _take notes on_:
 
 **Homework Due:**
 
-* Begin work on Lab Exercise 7 - MadLibs in Javascript
+* Begin work on [Lab Exercise 7 - MadLibs in Javascript](https://mjvo.github.io/tutorials/web-multimedia/lab7/)
 
 * Complete and _take notes on_: [freeCodeCamp's <q>Basic Javascript</q> Curriculum](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/) <br>&rarr; from <q>[Write Reusable Javascript with Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions)</q> up to and including <q>[Accessing Object Properties with Variables](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/accessing-object-properties-with-variables)</q>
 
@@ -350,7 +350,7 @@ Complete and _take notes on_:
 
 **Homework Due:**
 
-* Due:  Lab Exercise 7 - MadLibs in Javascript
+* Due:  [Lab Exercise 7 - MadLibs in Javascript](https://mjvo.github.io/tutorials/web-multimedia/lab7/)
 
 * Research Javascript Plugins and Libraries
 
