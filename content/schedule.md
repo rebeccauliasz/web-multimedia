@@ -343,6 +343,11 @@ Complete and _take notes on_:
 ## Week of Monday, November 18
 ### Lecture: Javascript 101 / Plugins and Libraries
 
+Read:  
+
+* [Object-Oriented JavaScript for Beginners](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
+* [Javascript Object Basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
+
 ---
 
 
