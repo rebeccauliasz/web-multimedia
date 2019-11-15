@@ -370,9 +370,19 @@ Read:
 ---
 
 ## Week of Monday, November 25
-### Lecture: Web APIs with Javascript
+### Lecture: Fetching Data with Javascript
 
-Due:  Lab Exercise 8 - Library Implementation
+Homework Due:  
+
+* Lab Exercise 8 - Library Implementation
+
+* Read:
+
+    * [What is JSON?](https://www.w3schools.com/whatis/whatis_json.asp)
+    * [Working with JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
+    * [Using Fetch](https://css-tricks.com/using-fetch/) - First section only: "Getting Data with Fetch"
+    * [Fetch API](https://davidwalsh.name/fetch)
+
 
 ---
 
@@ -385,7 +395,9 @@ Due:  Lab Exercise 8 - Library Implementation
 ## **Week of Monday, December 2**
 ### Lecture:  The Future - WebAssembly, WebXR, Pyodide, etc
 
+Homework:
 
+* Work on your semester project!!
 
 ---
 
