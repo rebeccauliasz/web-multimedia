@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Introduction to Javascript III</title>
+    
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="generator" content="Hugo 0.59.1" />
+    
+    
+					<link rel="stylesheet" type="text/css" href="https://mjvo.github.io/web-multimedia/remark/css/apron.css">
+					<link rel="stylesheet" type="text/css" href="https://mjvo.github.io/web-multimedia/remark/css/descartes.css">
+					<link rel="stylesheet" type="text/css" href="https://mjvo.github.io/web-multimedia/remark/css/adirondack.css">
+		<style type="text/css">
+		 
+		@page {
+				  size:  1216px 684px; 
+				  margin: 0;
+		}
+		</style>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/web-multimedia/remark/js/auto-render.min.js"></script> 
+    <script src="/web-multimedia/remark/js/story.js"></script>
+  </head>
+  <body class=" section-slides page-kind-section is-page-false ">
+    <main role="main">
+      
+    <textarea id="source">
+class: title, smokescreen, shelf, no-footer
+background-image: url(../2019-11-04/javascript.jpg)
+
+# Introduction to Javascript III
+## November 18, 2019
+
+---
+
+# Iteration:  For Loops
+
+Example:  a standard syntax
+
+```javascript
+for (statement 1; statement 2; statement 3) {
+  // code block to be executed
+}
+```
+
+Statement 1 is executed (one time) before the execution of the code block.
+
+Statement 2 defines the condition for executing the code block.
+
+Statement 3 is executed (every time) after the code block has been executed.
+
+---
+
+# Iteration:  For Loops
+
+The `for` loop has the following syntax:
+
+```javascript
+for (var i = 0; i &lt; 5; i&#43;&#43;) {
+  // code block to be executed
+  alert(&#34;All work and no play makes Jack a dull boy.&#34;);
+}
+```
+
+---
+# Javascript Functions
+
+Syntax:
+
+```javascript
+function functionName(param1, param2) {
+  // do stuff here - example: 
+  //let sum = param1 &#43; param2;
+  //return sum;
+}
+
+```
+
+---
+# Javascript Objects
+
+Encapsulated data types that contains properties (variables) and methods (functions).  Objects are declared and then instanced.
+
+---
+
+# Methods for creating objects
+
+* Object Literals
+* Constructor Function
+* Object.Create method [not covered today]
+* ES6 Class
+
+---
+class: compact
+
+# Object Literal
+
+
+```javascript
+let car = {
+  model: &#39;Escort&#39;, 
+  make:&#39;Ford&#39;, 
+  engine:&#39;4 cylinder&#39;
+  start: function(){
+      console.log(&#34;starting engine&#34;);
+  }
+};
+
+console.log(car.make); // Ford
+car.driveType = &#34;4WD&#34;; // set an object property
+
+```
+
+---
+class: compact
+# Constructor Function
+
+```javascript
+function Car(make, model, engine) {
+    this.make = make;
+    this.model = model;
+    this.engine = engine;
+    this.start = function(){
+      console.log(&#34;starting engine&#34;);
+    }
+}
+
+let car1 = new Car(&#39;Ford&#39;, &#39;Escort&#39;, &#39;4WD&#39;);
+let car2 = new Car(&#39;Honda&#39;, &#39;Civic&#39;, &#39;AWD&#39;);
+
+console.log(car2.make); // Honda
+car2.start(); // starting engine
+
+```
+
+---
+class: compact
+# ES6 Class
+
+```javascript
+class Car {
+    constructor(make, model, engine){
+      this.make = make;
+      this.model = model;
+      this.engine = engine;
+    }
+
+    start() {
+      console.log(&#34;Starting...&#34;);
+    }
+}
+
+let car1 = new Car(&#39;Ford&#39;, &#39;Escort&#39;, &#39;4WD&#39;);
+
+car1.brake = function(){
+  console.log(&#34;Braking...&#34;);
+}
+
+car1.brake(); // Braking... 
+
+```
+
+---
+
+# Implementing a Javascript Library
+
+https://tingle.robinparisi.com/
+
+---
+# Using a CDN (Content Delivery Network)
+
+https://cdnjs.com/</textarea>
+		<script type="text/javascript" src="https://mjvo.github.io/web-multimedia/remark/js/qrcode.js"></script>
+    <script src="https://mjvo.github.io/web-multimedia/remark/js/remark-latest.min.js"></script>
+    <script>
+      var slideshow = remark.create({
+          ratio: "16:9", 
+         
+         navigation: {
+            scroll: false
+         },
+         countIncrementalSlides: false,
+         slideNumberFormat: '%current%',
+		 highlightStyle: "atom-one-dark" 
+      });
+
+		
+		
+		$(".remark-slide-content.fit-h1 h1").each(function(i, e) {
+			var $e = $(e);
+			var $p = $e.closest('div.remark-slide-container');
+			var needsToggle = !$p.hasClass('remark-visible');
+			if ( needsToggle ) $p.toggleClass('remark-visible');
+			while (e.scrollHeight > e.clientHeight + 1 && $e.css('font-size') != '1px') {
+				$e.css('font-size', (parseInt($e.css('font-size')) - 1) + "px");
+				
+				
+			}
+			if ( needsToggle ) $p.toggleClass('remark-visible');
+		});
+		$( function() {
+			if ( $( "body.feature-qrcode:not(.feature-noqrcode)" ).length ) {
+				if ( $( ".qrcode" ).length ) {
+					new QRCode($(".qrcode")[0], {
+						"useSVG": true,
+						"text": window.location.href.replace(/#\d*$/, "")
+					});
+				}
+			}
+		});
+    </script>
+
+      </main>
+  </body>
+</html>
