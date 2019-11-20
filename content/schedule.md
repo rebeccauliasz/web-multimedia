@@ -365,7 +365,7 @@ Read:
 
 #### Lab #2
 
-* Lab Exercise 8 - Library Implementation
+* Begin work on [Lab Exercise 8 - Javascript Library Implementation](https://mjvo.github.io/tutorials/web-multimedia/lab8/)
 
 ---
 
@@ -374,7 +374,7 @@ Read:
 
 Homework Due:  
 
-* Lab Exercise 8 - Library Implementation
+* Lab Exercise 8 - [Javascript Library Implementation](https://mjvo.github.io/tutorials/web-multimedia/lab8/)
 
 * Read:
 
