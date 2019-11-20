@@ -284,7 +284,7 @@ DUE&colon;  <span class="tag is-success">Semester Project Proposal</span>
 ---
 
 ## Week of Monday, November 4
-### Lecture: Javascript 101 
+### Lecture: Javascript 101 (datatypes, variables, DOM manipulation)
 
 ---
 #### Lab #1
@@ -316,7 +316,7 @@ Complete and _take notes on_:
 ---
 
 ## Week of Monday, November 11
-### Lecture: Javascript 101, continued
+### Lecture: Javascript 101, continued (functions, logic, iteration)
 
 ---
 
@@ -341,7 +341,7 @@ Complete and _take notes on_:
 ---
 
 ## Week of Monday, November 18
-### Lecture: Javascript 101 / Plugins and Libraries
+### Lecture: Javascript 101:  Objects / Plugins and Libraries
 
 Read:  
 
