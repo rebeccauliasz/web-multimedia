@@ -253,6 +253,8 @@ DUE&colon; <span class="tag is-info">Midterm Websites</span>
 ## Week of Monday, October 28
 ### Lecture:  Web Accessiblity
 
+[Web Accessibility slides](../slides/2019-10-28/)
+
 ### <span style="color:#23d160;"><strike>Monday, October 28<br>3:05 PM</strike> Deadline Extended to Lab #2 this week</span>
 
 <strike>DUE&colon;  <span class="tag is-success">Semester Project Proposal</span></strike>
@@ -286,6 +288,8 @@ DUE&colon;  <span class="tag is-success">Semester Project Proposal</span>
 ## Week of Monday, November 4
 ### Lecture: Javascript 101 (datatypes, variables, DOM manipulation)
 
+[Javascript 101: Introduction, Part 1 slides](../slides/2019-11-04)
+
 ---
 #### Lab #1
 
@@ -318,6 +322,8 @@ Complete and _take notes on_:
 ## Week of Monday, November 11
 ### Lecture: Javascript 101, continued (functions, logic, iteration)
 
+[Javascript 101: Introduction, Part 2 slides](../slides/2019-11-11)
+
 ---
 
 #### Lab #1
@@ -342,6 +348,8 @@ Complete and _take notes on_:
 
 ## Week of Monday, November 18
 ### Lecture: Javascript 101:  Objects / Plugins and Libraries
+
+[Javascript 101: Introduction, Part 3 slides](../slides/2019-11-18)
 
 Read:  
 
@@ -371,6 +379,8 @@ Read:
 
 ## Week of Monday, November 25
 ### Lecture: Fetching Data with Javascript
+
+[Fetching Data with Javascript slides](../slides/2019-11-25)
 
 Homework Due:  
 
