@@ -60,7 +60,7 @@ class: compact
     * [Ruby on Rails](https://rubyonrails.org/): JavaScript - Ruby - SQLite - PHP
 
 ---
-class: compact
+
 # JSON
 
 What is JSON?
@@ -101,7 +101,7 @@ class: compact
 ```
 
 ---
-
+class: roomy
 # JSON Formatting
 
 * JSON is purely a data format — it contains only properties, no methods.<br><br>
@@ -138,8 +138,7 @@ class: compact
 ## Generic Fetch Syntax
 
 ```javascript
-// Replace ./data.json with your JSON feed
-// Can be full path URL
+// Replace ./data.json with your JSON feed; can be full path URL
 fetch('./data.json')
   .then(response => {
     return response.json()
@@ -173,7 +172,7 @@ Parsing this data: [https://jsonplaceholder.typicode.com/users](https://jsonplac
 
 # Where to look for JSON data:
 
-* https://github.com/public-apis/public-apis
-* https://www.data.gov/developers/apis
-* https://any-api.com/
+* https://github.com/public-apis/public-apis<br><br>
+* https://www.data.gov/developers/apis<br><br>
+* https://any-api.com/<br><br>
 * https://www.diycode.cc/projects/toddmotto/public-apis 
