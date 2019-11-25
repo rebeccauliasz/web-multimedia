@@ -157,7 +157,7 @@ fetch('./data.json')
 
 # Example 1
 
-[https://jsbin.com/qugosiw/2/edit?html,js,output](https://jsbin.com/qugosiw/2/edit?html,js,output)
+[https://jsbin.com/qugosiw/edit?html,js,output](https://jsbin.com/qugosiw/edit?html,js,output)
 
 
 ---
@@ -166,7 +166,7 @@ fetch('./data.json')
 
 Parsing this data: [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)
 
-[https://jsbin.com/qugosiw/4/edit?html,js](https://jsbin.com/qugosiw/4/edit?html,js)
+[https://jsbin.com/qugosiw/edit?html,js](https://jsbin.com/qugosiw/edit?html,js)
 
 ---
 
