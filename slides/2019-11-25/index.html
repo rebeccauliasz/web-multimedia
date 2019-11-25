@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Fetching Data with Javascript</title>
+    
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="generator" content="Hugo 0.59.1" />
+    
+    
+					<link rel="stylesheet" type="text/css" href="https://mjvo.github.io/web-multimedia/remark/css/apron.css">
+					<link rel="stylesheet" type="text/css" href="https://mjvo.github.io/web-multimedia/remark/css/descartes.css">
+					<link rel="stylesheet" type="text/css" href="https://mjvo.github.io/web-multimedia/remark/css/adirondack.css">
+		<style type="text/css">
+		 
+		@page {
+				  size:  1216px 684px; 
+				  margin: 0;
+		}
+		</style>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/web-multimedia/remark/js/auto-render.min.js"></script> 
+    <script src="/web-multimedia/remark/js/story.js"></script>
+  </head>
+  <body class=" section-slides page-kind-section is-page-false ">
+    <main role="main">
+      
+    <textarea id="source">
+class: title, smokescreen, shelf, no-footer
+background-image: url(json-logo.png)
+
+# Fetching Data with Javascript
+## November 25, 2019
+
+---
+
+#  Frontend vs. Backend
+
+* This course has focused on **&#34;frontend&#34;** approaches to web development:
+
+  * Languages:  HTML, CSS, Javascript&lt;br&gt;&lt;br&gt;
+  * Code is written to run in a web _browser_ (client-side)
+
+--
+
+* **Backend** approaches
+
+  * Languages:  Java, PHP, Python, Ruby on Rails, .Net, Javascript (NodeJS), etc
+
+  * Code is written to run on a web _server_ (server-side) and often interfaces with a _database._
+
+---
+class: compact
+# Fullstack Development
+
+* &#34;Fullstack&#34; encompasses both front-end (client-side) and back-end (server-side) programming. In addition to mastering HTML and CSS, he/she/they also knows how to:
+
+  * Program a browser (like using JavaScript, jQuery, Angular, or Vue)
+  * Program a server (like using PHP, ASP, Python, or Node)
+  * Program a database (like using SQL, SQLite, or MongoDB)
+
+--
+* Popular full-stack implementations include (in addition to HTML/CSS/Javascript):
+
+    * [LAMP stack](https://en.wikipedia.org/wiki/LAMP_(software_bundle)): Linux - Apache - MySQL - PHP
+    * [LEMP stack](https://lemp.io/): Linux - Nginx - MySQL - PHP
+    * [MEAN stack](http://meanjs.org/): MongoDB - Express - AngularJS - Node.js
+    * [MERN stack](https://medium.com/javascript-in-plain-english/full-stack-mongodb-react-node-js-express-js-in-one-simple-app-6cc8ed6de274): MongoDB - Express - React - Node.js
+    * [Python stack](https://www.fullstackpython.com/): Python - Django/Flask/etc - MySQL
+    * [Ruby on Rails](https://rubyonrails.org/): JavaScript - Ruby - SQLite - PHP
+
+---
+class: compact
+# JSON
+
+What is JSON?
+
+--
+
+JSON stands for **J**ava**S**cript **O**bject **N**otation.
+
+--
+
+It is a standard **text-based** format for representing **structured data** based on JavaScript object syntax. It is commonly used for transmitting data in web applications.
+
+---
+class: compact 
+
+# Example:   [Who&#39;s in Space Right Now?](http://api.open-notify.org/astros.json)
+
+```json
+{
+    &#34;people&#34;: [{
+        &#34;name&#34;: &#34;Christina Koch&#34;,
+        &#34;craft&#34;: &#34;ISS&#34;
+    }, {
+        &#34;name&#34;: &#34;Alexander Skvortsov&#34;,
+        &#34;craft&#34;: &#34;ISS&#34;
+    }, {
+        &#34;name&#34;: &#34;Luca Parmitano&#34;,
+        &#34;craft&#34;: &#34;ISS&#34;
+    }, {
+        &#34;name&#34;: &#34;Jessica Meir&#34;,
+        &#34;craft&#34;: &#34;ISS&#34;
+    }],
+    &#34;number&#34;: 4,
+    &#34;message&#34;: &#34;success&#34;
+}
+
+
+```
+
+---
+
+# JSON Formatting
+
+* JSON is purely a data format — it contains only properties, no methods.&lt;br&gt;&lt;br&gt;
+
+--
+* JSON requires double quotes to be used around strings and property names. Single quotes are not valid.&lt;br&gt;&lt;br&gt;
+
+--
+* Unlike in JavaScript code in which object properties may be unquoted, in JSON only quoted strings may be used as properties.
+
+---
+
+# Dummy JSON API for testing
+
+* https://jsonplaceholder.typicode.com/
+
+---
+
+# Common Browser APIs
+
+* DOM API
+* Fetch API
+* Canvas API
+* WebGL API
+* Web Audio API
+* getUserMedia / Stream API
+* Device APIs (Ambient Light, Battery, Bluetooth, Vibration)
+* Web Storage API
+
+---
+
+# In-Depth:  Getting JSON with the Fetch API
+
+## Generic Fetch Syntax
+
+```javascript
+// Replace ./data.json with your JSON feed
+// Can be full path URL
+fetch(&#39;./data.json&#39;)
+  .then(response =&gt; {
+    return response.json()
+  })
+  .then(data =&gt; {
+    // Work with JSON data here
+    console.log(data)
+  })
+  .catch(err =&gt; {
+    // Do something for an error here
+  })
+
+```
+
+---
+
+# Example 1
+
+[https://jsbin.com/qugosiw/2/edit?html,js,output](https://jsbin.com/qugosiw/2/edit?html,js,output)
+
+
+---
+
+# Example 2
+
+Parsing this data: [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)
+
+[https://jsbin.com/qugosiw/4/edit?html,js](https://jsbin.com/qugosiw/4/edit?html,js)
+
+---
+
+# Where to look for JSON data:
+
+* https://github.com/public-apis/public-apis
+* https://www.data.gov/developers/apis
+* https://any-api.com/
+* https://www.diycode.cc/projects/toddmotto/public-apis 
+</textarea>
+		<script type="text/javascript" src="https://mjvo.github.io/web-multimedia/remark/js/qrcode.js"></script>
+    <script src="https://mjvo.github.io/web-multimedia/remark/js/remark-latest.min.js"></script>
+    <script>
+      var slideshow = remark.create({
+          ratio: "16:9", 
+         
+         navigation: {
+            scroll: false
+         },
+         countIncrementalSlides: false,
+         slideNumberFormat: '%current%',
+		 highlightStyle: "atom-one-dark" 
+      });
+
+		
+		
+		$(".remark-slide-content.fit-h1 h1").each(function(i, e) {
+			var $e = $(e);
+			var $p = $e.closest('div.remark-slide-container');
+			var needsToggle = !$p.hasClass('remark-visible');
+			if ( needsToggle ) $p.toggleClass('remark-visible');
+			while (e.scrollHeight > e.clientHeight + 1 && $e.css('font-size') != '1px') {
+				$e.css('font-size', (parseInt($e.css('font-size')) - 1) + "px");
+				
+				
+			}
+			if ( needsToggle ) $p.toggleClass('remark-visible');
+		});
+		$( function() {
+			if ( $( "body.feature-qrcode:not(.feature-noqrcode)" ).length ) {
+				if ( $( ".qrcode" ).length ) {
+					new QRCode($(".qrcode")[0], {
+						"useSVG": true,
+						"text": window.location.href.replace(/#\d*$/, "")
+					});
+				}
+			}
+		});
+    </script>
+
+      </main>
+  </body>
+</html>
