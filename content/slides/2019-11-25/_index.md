@@ -60,7 +60,7 @@ class: compact
     * [Ruby on Rails](https://rubyonrails.org/): JavaScript - Ruby - SQLite - PHP
 
 ---
-
+class: roomy
 # JSON
 
 What is JSON?
