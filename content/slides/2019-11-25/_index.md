@@ -132,7 +132,7 @@ class: roomy
 * Web Storage API
 
 ---
-
+class: compact
 # In-Depth:  Getting JSON with the Fetch API
 
 ## Generic Fetch Syntax
