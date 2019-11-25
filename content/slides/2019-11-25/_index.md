@@ -119,7 +119,7 @@ class: roomy
 * https://jsonplaceholder.typicode.com/
 
 ---
-
+class: roomy
 # Common Browser APIs
 
 * DOM API
@@ -157,8 +157,7 @@ fetch('./data.json')
 
 # Example 1
 
-[https://jsbin.com/qugosiw/edit?html,js,output](https://jsbin.com/qugosiw/edit?html,js,output)
-
+[https://jsbin.com/sucevij/edit?html,js,output](https://jsbin.com/sucevij/edit?html,js,output)
 
 ---
 
@@ -166,7 +165,7 @@ fetch('./data.json')
 
 Parsing this data: [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)
 
-[https://jsbin.com/qugosiw/edit?html,js](https://jsbin.com/qugosiw/edit?html,js)
+[https://jsbin.com/qugosiw/edit?html,js,output](https://jsbin.com/qugosiw/edit?html,js,output)
 
 ---
 
