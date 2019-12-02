@@ -53,7 +53,7 @@ menu: main
 
 * **Final Project:** 35%<br>Due: 12:00 PM, Wednesday, December 11
 
-    The final project for the course is an accessible, interactive website that uses valid HTML, CSS, and Javascript of a genre (design portfolio, web documentary, webXR experience, interactive storytelling, or a company, product, hobby, thesis, or project website) and aesthetic of the student's choice, in consultation with and with approval of lab instructors.  Final projects will be accompanied by a screen-recorded or [intro.js](https://introjs.com) step-by-step tour/feature introduction and one-page site self-assessment / post-mortem reflection.  
+    The final project for the course is an accessible, interactive website that uses valid HTML, CSS, and Javascript of a genre (design portfolio, web documentary, webXR experience, interactive storytelling, or a company, product, hobby, thesis, or project website) and aesthetic of the student's choice, in consultation with and with approval of lab instructors.  Final projects will be accompanied by a one-page site self-assessment / post-mortem reflection.  
 
 ## Recommended Software
 
