@@ -15,20 +15,6 @@ themes:
 highlight_style: "atom-one-dark"
 
 ---
-# Prof. Olson's Final Project Open Office Hours
-
-* [https://calendly.com/mark-olson](https://calendly.com/mark-olson)
-* Monday, December 9, 8 AM - 10 AM / 2 - 4 PM
-* Tuesday, December 10, 8 AM - 10 AM, Noon - 2 PM, 3 - 4 PM
-* Piazza!!!
-
-
----
-class: title
-# Course Evals
-
-
----
 
 class: title smokescreen shelf no-footer compact
 background-image: url(https://cdn.elearningindustry.com/wp-content/uploads/2018/08/what-is-the-future-of-web-scraping-for-android-apps-1024x574.jpg)
@@ -62,11 +48,13 @@ Angular - developed by Google, was first released in 2010, uses Typescript; v2 -
 Vue - ex-Google employee; tiny size; small but growing; easiest to learn but can get by with terrible code, making debugging and testing difficult
 
 ---
-class: roomy
+
 # Javascript Frameworks
 
-* Develop across platforms - web, mobile web, mobile &amp; desktop native<br><br>
-* Component-based (re-usable; only update/render parts of a webpage)
+
+* Unlike a javascript library which is implemented within a "vanilla" HTML and CSS site, a framework defines the entire web application design.  You build the entire site within the vernacular of the framework.<br><br>
+* A framework often enables the development of "cross-platform" applications - a single codebase which works across web, mobile web, mobile &amp; desktop native operating systems.<br><br>
+* Frameworks are component-based, stateful, and declarative.
 
 ---
 class: center compact
@@ -93,11 +81,11 @@ class: title
 
 ### [OpenCV.js](https://docs.opencv.org/master/df/d0a/tutorial_js_intro.html)<br><br>[https://codepen.io/huningxin/pen/NvjdeN](https://codepen.io/huningxin/pen/NvjdeN)
 
---- 
-
+---
+class: roomy
 # Python in the Browser
 
-* Pyodide - [https://github.com/iodide-project/pyodide](https://github.com/iodide-project/pyodide)
+* Pyodide - [https://github.com/iodide-project/pyodide](https://github.com/iodide-project/pyodide)<br><br>
 * Streamlit - [https://streamlit.io/](https://streamlit.io/)
 
 
@@ -105,9 +93,27 @@ class: title
 
 # WebXR
 
+WebXR refers to the delivery of "extended reality" (XR) experiences in the brower.  XR is a concept intended to encompass both virtual reality and augmented reality applications.
+
+Some webXR libraries include:
+
+* [Aframe](https://aframe.io) - a well-documented library for generating VR experiences; can be extended to AR using [AR.js](https://github.com/jeromeetienne/AR.js/)
+
+* The [Immersive Web Working Group](https://immersive-web.github.io) has published a number of [WebXR examples with source code](https://immersive-web.github.io/webxr-samples/). 
 
 ---
+class: col-2
+# WebXR Example - Hit Test
 
+ <video width="50%" controls>
+  <source src="AR_hit_test.mov" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+
+The video at left demonstrates using the [Hit Test API](https://immersive-web.github.io/webxr-samples/proposals/) to place virtual objects on real-world surfaces.  Note how the sunflower adheres to the sidewalk.  Tapping on the phone screen places a sunflower in the world.  This demo requires the experimental web browser Chrome Canary to function on Android.  
+
+
+---
 # Final Project Submission
 
 No later than noon (12 PM) on December 11
@@ -119,3 +125,5 @@ Send an email to your lab instructor and Prof. Olson with the following:
     * URL to your final project
     * One-page site self-assessment / post-mortem reflection *in the body of the email*
     * Confirmation that you have completed the anonymous course evaluation.  
+
+Questions?  Email us or post to Piazza!

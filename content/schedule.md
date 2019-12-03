@@ -411,6 +411,6 @@ Homework:
 
 ---
 
-# <span style="color:red;">Wednesday, December 11<sup>th</sup> <br> 12:00 PM</span>
+## Wednesday, December 11<sup>th</sup> @ 12:00 PM
 
 DUE&colon; <span class="tag is-danger">Final Websites</span>
