@@ -1,4 +1,4 @@
-baseURL: "https://mjvo.github.io/web-multimedia"
+baseURL: "https://http://rebeccauliasz.github.io//web-multimedia"
 title: "AMI 325L/725L :: ISS 240L/740L :: VMS 288L/788L"
 
 defaultContentLanguage: en
@@ -10,7 +10,7 @@ languages:
 
 MetaDataFormat: "yaml"
 
-theme: 
+theme:
   - "hugo-course"
   - "reveal-hugo"
 
@@ -25,7 +25,7 @@ outputFormats:
     baseName: index
     mediaType: text/html
     isHTML: true
-  
+
 params:
   course:
     name: "Fundamentals of Web-Based Multimedia Communications"
@@ -38,7 +38,7 @@ params:
 
   reveal_hugo:
     theme: white
-    
+
     width: 960
     height: 540
     margin: 0.1
