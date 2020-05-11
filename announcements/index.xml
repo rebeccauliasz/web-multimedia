@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Announcements on AMI 325L/725L :: ISS 240L/740L :: VMS 288L/788L</title>
-    <link>https://mjvo.github.io/web-multimedia/announcements/</link>
+    <link>https://rebeccauliasz.github.io/web-multimedia/announcements/</link>
     <description>Recent content in Announcements on AMI 325L/725L :: ISS 240L/740L :: VMS 288L/788L</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://mjvo.github.io/web-multimedia/announcements/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rebeccauliasz.github.io/web-multimedia/announcements/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Welcome!</title>
-      <link>https://mjvo.github.io/web-multimedia/announcements/2019-08-26welcome/</link>
+      <link>https://rebeccauliasz.github.io/web-multimedia/announcements/2019-08-26welcome/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mjvo.github.io/web-multimedia/announcements/2019-08-26welcome/</guid>
+      <guid>https://rebeccauliasz.github.io/web-multimedia/announcements/2019-08-26welcome/</guid>
       <description>Welcome to &amp;ldquo;Fundamentals of Web-Based Multimedia Communication&amp;rdquo;! We&#39;re looking forward to a great Fall semester and hope that you&#39;ll find this deep dive into HTML, CSS, and Javascript engaging and challenging.
 Our goal is to equip you with the conceptual, aesthetic, and technical tools necessary for modern web development, and prepare you for more advanced coursework in computational media arts.
 Looking forward to getting to know each of you in class, during our office hours, and at the various &amp;ldquo;compmedia&amp;rdquo;-related events on campus!</description>
