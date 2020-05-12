@@ -6,48 +6,48 @@
     <description>Recent content in Home on AMI 325L/725L :: ISS 240L/740L :: VMS 288L/788L</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate>
-    
+
 	<atom:link href="https://rebeccauliasz.github.io/web-multimedia/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+
+
     <item>
       <title>Welcome!</title>
       <link>https://rebeccauliasz.github.io/web-multimedia/announcements/2019-08-26welcome/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
-      
+
       <guid>https://rebeccauliasz.github.io/web-multimedia/announcements/2019-08-26welcome/</guid>
       <description>Welcome to &amp;ldquo;Fundamentals of Web-Based Multimedia Communication&amp;rdquo;! We&#39;re looking forward to a great Fall semester and hope that you&#39;ll find this deep dive into HTML, CSS, and Javascript engaging and challenging.
 Our goal is to equip you with the conceptual, aesthetic, and technical tools necessary for modern web development, and prepare you for more advanced coursework in computational media arts.
 Looking forward to getting to know each of you in class, during our office hours, and at the various &amp;ldquo;compmedia&amp;rdquo;-related events on campus!</description>
     </item>
-    
+
     <item>
       <title>Requirements</title>
       <link>https://rebeccauliasz.github.io/web-multimedia/requirements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+
       <guid>https://rebeccauliasz.github.io/web-multimedia/requirements/</guid>
       <description>Course Policies   Attendance
 Attendance is mandatory at all lectures and discussion sections. Please familiarize yourself with Duke’s policies on Class Attendance and Missed Work. If you need to miss class for a valid reason, please notify your professor and TA in advance.
    Technology in the Classroom
 Mobile phones should be turned off and either stowed in your bookbag or placed screen-down on your desk for the duration of class.</description>
     </item>
-    
+
     <item>
       <title>Resources</title>
       <link>https://rebeccauliasz.github.io/web-multimedia/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+
       <guid>https://rebeccauliasz.github.io/web-multimedia/resources/</guid>
       <description>The sheer volume of online resources for learning HTML, CSS, and Javascript makes it difficult to know where to begin. Here are some of our favorites:
 HTML5 &amp;amp; CSS Official Specifications  W3C HTML 5.2 WHATWG HTML Living Standard W3C CSS Working Group  Fundamentals  HTML &amp;amp; CSS is Hard W3Schools HTML5 Tutorial W3Schools CSS Tutorial Code Academy&#39;s Introduction to HTML Code Academy&#39;s Learn CSS  Reference Guides  Mozilla Development Network HTML Elements Reference W3Schools HTML Elements Reference htmlreference.</description>
     </item>
-    
+
     <item>
       <title>Schedule</title>
       <link>https://rebeccauliasz.github.io/web-multimedia/schedule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+
       <guid>https://rebeccauliasz.github.io/web-multimedia/schedule/</guid>
       <description>Schedule subject to change at instructor’s discretion.
  Week of Monday, August 26 Lecture: Introduction Introduction slides
@@ -59,6 +59,6 @@ View the following Khan Academy videos on the fundamentals of the Internet and i
   Packets, Routers, and Reliability (6:25)
   HTTP and HTML (7:06)</description>
     </item>
-    
+
   </channel>
 </rss>
