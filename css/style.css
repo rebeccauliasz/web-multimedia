@@ -48,3 +48,8 @@ h2 {
     flex: none;
     width: 33%;
 }
+
+.column.is-narrow, .column.is-narrow-tablet {
+    flex: none;
+    width: 33%;
+}
