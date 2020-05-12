@@ -5,13 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>
-          
+
           AMI 325L/725L :: ISS 240L/740L :: VMS 288L/788L &ndash; Tags
-          
-          
+
+
         </title>
-         
+
         <link rel="stylesheet" href="https://rebeccauliasz.github.io/web-multimedia/css/main.min.css" >
+        <link rel="stylesheet" href="https://rebeccauliasz.github.io/web-multimedia/css/style.css" >
     <style>
         .is-img {
             background:url("/web-multimedia/images/sai-kiran-anagani-5Ntkpxqt54Y-unsplash.jpg") center center;
@@ -26,13 +27,13 @@
         <div class="container">
         <div class="navbar-brand">
           <a class="navbar-item" href="https://aahvs.duke.edu" target="_blank">
-            
+
             <img src="/web-multimedia/images/AAHVS_Barcode_Logo.png" alt="Logo" width="142" height="28">
-            
+
           </a>
-          
+
           <div class="navbar-item">Fundamentals of Web-Based Multimedia Communications</div>
-          
+
           <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -41,23 +42,23 @@
         </div>
         <div id="navMenu" class="navbar-menu">
           <div class="navbar-start">
-             
+
           </div>
-      
+
           <div class="navbar-end">
-            
+
             <a class="navbar-item" href="/web-multimedia/" title="Home">Home</a>
-            
+
             <a class="navbar-item" href="/web-multimedia/announcements/" title="Announcements">Announcements</a>
-            
+
             <a class="navbar-item" href="/web-multimedia/requirements/" title="Requirements">Requirements</a>
-            
+
             <a class="navbar-item" href="/web-multimedia/resources/" title="Resources">Resources</a>
-            
+
             <a class="navbar-item" href="/web-multimedia/schedule/" title="Schedule">Schedule</a>
-            
+
             <a class="navbar-item" href="/web-multimedia/slides/" title="Slides">Slides</a>
-            
+
           </div>
         </div>
     </div>
@@ -83,15 +84,15 @@ const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.na
 
 if ($navbarBurgers.length > 0) {
 
-  
+
   $navbarBurgers.forEach( el => {
     el.addEventListener('click', () => {
 
-      
+
       const target = el.dataset.target;
       const $target = document.getElementById(target);
 
-      
+
       el.classList.toggle('is-active');
       $target.classList.toggle('is-active');
 
